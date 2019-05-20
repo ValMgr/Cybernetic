@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cybernetik</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style/main.css" />
+
 </head>
 <body>
 
@@ -18,6 +20,6 @@
 </body>
 
 
-<script src="countdown.js"></script>
+<script src="js/countdown.js"></script>
 
 </html>
