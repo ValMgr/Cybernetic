@@ -19,7 +19,7 @@
 
 
   .title h1{
-      color: white;
+      color: rgb(255, 255, 255);
       font-family: Cybernetic;
       font-size: 5em;
   }
@@ -43,15 +43,19 @@
 
   .glitch h1:nth-child(2) {
     display: none;
-    color: #174691;
-    animation: glitch2 2.5s infinite;
+    color: #4c78c0;
   }
 
   .glitch h1:nth-child(3) {
     display: none;
-    color: #ffffff;
+    color: #0b3475;
+  }
+
+  .glitch > h1:nth-child(1){
+    display: block;
     animation: glitch1 2.5s infinite;
   }
+
 
   .glitch > h1:nth-child(2){
     display: block;
@@ -62,7 +66,6 @@
     display: block;
     animation: glitch3 2.5s infinite;
   }
-/Keyframes/
 
   @keyframes glitch1 {
     0% {
