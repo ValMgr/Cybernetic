@@ -6,36 +6,77 @@
 
   body{
       background-color: rgb(20, 20, 20);
-      overflow-x: hidden;
   }
 
-  @font-face {
-    font-family: 'Cybernetic';
-    src: url('../font/OCRAStd.woff2') format('woff2'),
-        url('../font/OCRAStd.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+ 
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
 }
 
 
-  .title h1{
+  .waiter{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+    position: absolute;
+    z-index: 2;
+  }
+
+  .disapear{
+    animation: disapear 2s;
+    visibility: hidden;
+  }
+
+  @keyframes disapear{
+    0%{
+      visibility: visible;
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+
+  .waiter-title{
+      position: absolute;
+      top: 50%;
+      left: calc(50% - 296px);
       color: rgb(255, 255, 255);
       font-family: Cybernetic;
-      font-size: 5em;
+      font-size: 2.5em;
   }
 
-  .title p{
-      color: white;
-      font-size: 2em;
-      margin-left: 35px;
-      line-height: 150px;
+  .content{
+    position: relative;
+    color: white;
+    z-index: 0;
+    grid-row: 5;
+    grid-column: 5 / 10;
   }
 
-  .title{
-      position: absolute;
-      top: 40%;
-      left: 30%;
+  .content h1{
+    font-size: 5em;
+    text-align: center;
+    font-family: Cybernetic;
   }
+
+  .content p{
+    font-size: 2em;
+    font-family: 'Roboto';
+  }
+  
+
+
+
+
+
+
+  /* Glitch Effect */
 
   .glitch{
       line-height: 0px;
@@ -48,7 +89,7 @@
 
   .glitch h1:nth-child(3) {
     display: none;
-    color: #0b3475;
+    color: #ffffff;
   }
 
   .glitch > h1:nth-child(1){
@@ -231,3 +272,14 @@
       opacity: 0.25;
     }
   }
+
+
+  /* Custom Font  Cybernetic */
+
+  @font-face {
+    font-family: 'Cybernetic';
+    src: url('../font/OCRAStd.woff2') format('woff2'),
+        url('../font/OCRAStd.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

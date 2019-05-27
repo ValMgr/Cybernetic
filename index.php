@@ -6,30 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CyberNeTic</title>
     <link rel="stylesheet" type="text/css" media="screen" href="style/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet"> 
 
 </head>
 <body>
 
-    <div class="title">
+    <div class="wrapper">
 
-        <div class="glitch">
-            <h1>CyberNeTic</h1>
-            <h1>CyberNeTic</h1>
-            <h1>CyberNeTic</h1>
-           
 
+        <div class="waiter" onclick="WaiterToggle(this)">
+            <div class="waiter-title">
+                <div class="glitch">
+                    <h1>CyberNeTic</h1>
+                    <h1>CyberNeTic</h1>
+                    <h1>CyberNeTic</h1>
+                </div>
+            </div>
         </div>
 
-        <p id="date"></p>
+    
+        <div class="content">
+
+        
+                <h1>TEST</h1>
+
+                <p>Lorem Ipsum laof kafof kakfalfle flaff lf akfe lfakf </p>
+        
+        </div>
 
     </div>
-    
-
-    
 
 </body>
 
+<script>
 
-<script src="js/countdown.js"></script>
+    function WaiterToggle(x) {
+        x.classList.add("disapear");
+    }
+
+</script>
 
 </html>
