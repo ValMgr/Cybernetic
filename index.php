@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CyberNeTic</title>
     <link rel="stylesheet" type="text/css" media="screen" href="style/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/mainResponsive.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="style/hexagon.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/hexagonResponsive.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> 
 
@@ -16,7 +18,7 @@
     <div class="wrapper">
 
 
-        <div class="waiter" onclick="WaiterToggle(this)">
+        <div class="waiter" onclick="WaiterDisapear(this)">
             <div class="waiter-title">
                 <div class="glitch">
                     <h1>CyberNeTic</h1>
@@ -24,6 +26,11 @@
                     <h1>CyberNeTic</h1>
                 </div>
             </div>
+
+            <p id="date"></p>
+
+            <img id="waiter-img" src="style/Assets/Maille.png">
+
         </div>
 
     
@@ -51,8 +58,8 @@
                 </div>
 
                 <div class="HexagonGroup1">
-                    <div class="hexagon"></div>
-                    <div class="hexagon2"></div>
+                    <div class="hexagon1" id="hexagon11"></div>
+                    <div class="hexagon1" id="hexagon12"></div>
                     <h3>LE PROJET</h3>
                 </div>
 
@@ -62,10 +69,12 @@
 
 <script>
 
-    function WaiterToggle(x) {
+    function WaiterDisapear(x) {
         x.classList.add("disapear");
     }
 
 </script>
+
+<script src="js/countdown.js"></script>
 
 </html>
