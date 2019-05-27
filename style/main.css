@@ -57,7 +57,7 @@
     color: rgb(0, 0, 0);
     z-index: 0;
     grid-row: 3;
-    grid-column: 5 / 10;
+    grid-column: 6 / 11;
   }
 
   .content h2{
@@ -67,7 +67,7 @@
   }
 
   .content p{
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: 'Roboto';
   }
   
@@ -102,8 +102,17 @@
     grid-row: 3; 
   }
 
-  .hexagon{
-    left:
+  .HexagonGroup1 h3{
+    color: white;
+    font-family: 'Roboto';
+    font-size: 1.5em;
+    position: relative;
+    top: -70%;
+    left: 10%;
+  }
+  .hexagon2{
+    top: -32%;
+    left: -10%;
   }
 
 

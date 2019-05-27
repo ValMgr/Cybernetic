@@ -40,19 +40,20 @@
 
                 <div class="content">
 
-                    <h2>À propos du projet </h2>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                     In vulputate quam vitae tincidunt scelerisque. Aliquam ut tortor nec metus egestas rutrum.
-                      Nulla lobortis purus ipsum, sed porta enim vehicula quis. Cras nec diam massa. Nulla venenatis dignissim urna.
-                       In commodo tristique gravida. Phasellus a dignissim erat. Donec rhoncus finibus varius. Nulla in hendrerit sapien.
-                        Phasellus lorem est, mattis in vulputate et, aliquet vel erat. Quisque auctor dignissim sollicitudin.
-                         Proin ut nunc hendrerit magna finibus porta. Duis bibendum pretium mattis. </p>
+                    <p> En partenariat avec la Gendarmerie Nationale, le projet CyberNeTic vise à mener une recherche-action au coeur des sciences
+                        de l'information et de la communication pour étudier les formes d'expression de la violence au moyen des nouvelles
+                        technologies et tout particulièrement celle du cyberharcèlement. Il s'agit d'analyser les discours d'expériences
+                        (victimes, enquêteurs) et les échanges de conversations (sms, réseaux sociaux, mails, etc.), afin d'indentifier
+                         les phénomène d'engrenage, les stratégies d'influence et de manipulation enclenchés par les prédateurs. </p>
+
+                    <!-- <a> Lire la suite </a> -->
 
                 </div>
 
                 <div class="HexagonGroup1">
                     <div class="hexagon"></div>
                     <div class="hexagon2"></div>
+                    <h3>LE PROJET</h3>
                 </div>
 
     </div>
