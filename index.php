@@ -60,7 +60,7 @@
                 <div class="HexagonGroup1">
                     <div class="hexagon1" id="hexagon11"></div>
                     <div class="hexagon1" id="hexagon12"></div>
-                    <h3>LE PROJET</h3>
+                    <div id="hexagon1-title"><h3>LE PROJET</h3></div>
                 </div>
 
     </div>
