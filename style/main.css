@@ -119,6 +119,18 @@
     position: relative;
  
   }
+
+  #hexagon11{
+    position: absolute;
+  }
+  #hexagon12{
+    position: relative;
+    transform: translate(-20px, 30px);
+  }
+  #hexagon1-title{
+    position: relative;
+    transform: translate(15px, -125px);
+  }
   
   
 

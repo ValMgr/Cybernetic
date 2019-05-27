@@ -2,8 +2,8 @@
         position: relative;
         width: 200px; 
         height: 115.47px;
-    
         margin: 57.74px 0;
+        opacity: 0.65;
       }
       
       .hexagon1:before,
@@ -28,9 +28,12 @@
 
       #hexagon11{
         background-color: #03AFA8;
+        
       }
       #hexagon11:before{
         border-bottom: 57.74px solid #03AFA8;
+
+
       }
       #hexagon11:after{
         border-top: 57.74px solid #03AFA8;
