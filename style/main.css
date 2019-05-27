@@ -5,7 +5,8 @@
   }
 
   body{
-      background-color: rgb(20, 20, 20);
+      background-color: rgb(255, 255, 255);
+      overflow-x: hidden;
   }
 
  
@@ -21,7 +22,7 @@
   .waiter{
     width: 100vw;
     height: 100vh;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(255, 255, 255);
     position: absolute;
     z-index: 2;
   }
@@ -46,20 +47,20 @@
       position: absolute;
       top: 50%;
       left: calc(50% - 296px);
-      color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
       font-family: Cybernetic;
       font-size: 2.5em;
   }
 
   .content{
     position: relative;
-    color: white;
+    color: rgb(0, 0, 0);
     z-index: 0;
-    grid-row: 5;
+    grid-row: 3;
     grid-column: 5 / 10;
   }
 
-  .content h1{
+  .content h2{
     font-size: 5em;
     text-align: center;
     font-family: Cybernetic;
@@ -71,10 +72,42 @@
   }
   
 
+  .navbar{
+    grid-column: 1 / 13;
+    grid-row: 1;
+    text-align: right;
+    margin: 10px;
+  }
+
+  .navbar a{
+    color: #174691;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'Roboto';
+    margin-right: 20px;
+  }
+
+  .navbar a:hover{
+    color: #03AFA8;
+    border-bottom: solid;
+  }
+
+  #select{
+    color: #03AFA8;
+    border-bottom: solid;
+  }
+
+  .HexagonGroup1{
+    grid-column: 3 / 4;
+    grid-row: 3; 
+  }
+
+  .hexagon{
+    left:
+  }
 
 
-
-
+  
 
   /* Glitch Effect */
 
@@ -89,7 +122,7 @@
 
   .glitch h1:nth-child(3) {
     display: none;
-    color: #ffffff;
+    color: #313131;
   }
 
   .glitch > h1:nth-child(1){
