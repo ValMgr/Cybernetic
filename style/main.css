@@ -52,6 +52,16 @@
       font-size: 2.5em;
   }
 
+  .waiter p{
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    line-height: 150px;
+    font-family: 'Cybernetic';
+    position: absolute;
+    top: 55%;
+    left: calc(50% - 460.5px);
+  }
+
   .content{
     position: relative;
     color: rgb(0, 0, 0);
@@ -107,13 +117,10 @@
     font-family: 'Roboto';
     font-size: 1.5em;
     position: relative;
-    top: -70%;
-    left: 15%;
+ 
   }
-  .hexagon2{
-    top: -35%;
-    left: -5%;
-  }
+  
+  
 
 
   
