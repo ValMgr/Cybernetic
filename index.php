@@ -29,7 +29,6 @@
 
             <p id="date"></p>
 
-            <img id="waiter-img" src="style/Assets/Maille.png">
 
         </div>
 
@@ -37,15 +36,18 @@
 
         
                 <div class="navbar">
-                    <a href="#">Actualités</a>
-                    <a href="#" id="select">Projet</a>
-                    <a href="#">Formulaire</a>
-                    <a href="#">Contact</a>
-                    <a href="#">ABCDAIR</a>
+                    <a href="#">ACTUALITES</a>
+                    <a href="#">PROJET</a>
+                    <a href="#">TEMOIGNAGE</a>
+                    <a href="#">EN IMAGE</a>
+                    <a href="#">RESSOURCES</a>
+                    <a href="#">CONTACT</a>
                     <a href="#"><i class="fas fa-search"></i></a>
                 </div>
 
-                <div class="content">
+                <div id="Maille1"></div>
+
+                <div class="About">
 
                     <p> En partenariat avec la Gendarmerie Nationale, le projet CyberNeTic vise à mener une recherche-action au coeur des sciences
                         de l'information et de la communication pour étudier les formes d'expression de la violence au moyen des nouvelles
@@ -53,17 +55,39 @@
                         (victimes, enquêteurs) et les échanges de conversations (sms, réseaux sociaux, mails, etc.), afin d'indentifier 
                         les phénomène d'engrenage, les stratégies d'influence et de manipulation enclenchés par les prédateurs. </p>
 
-                    <!-- <a> Lire la suite </a> -->
+                    <a href="#">En savoir plus</a>
 
                 </div>
 
-                <img id="Maille1" src="style/Assets/Maille.png">
+                <div id="UselessBar"></div>
+                
 
                 <div class="HexagonGroup1">
                     <div id="hexagon1"></div>
                     <div id="hexagon2"></div>
                     <h3 id="hexagon1-title">LE PROJET</h3>
                 </div>
+
+
+                <div class="Actuality"> <h2>ACTUALITES</h2> </div>
+
+                <div class="LastActu1">
+                    <img src="style/Assets/Temp.jpeg" style="width: 100%;">
+                    <h3> Lorem Ipsum </h3>
+                </div>
+
+                <div class="LastActu2">
+                    <img src="style/Assets/Temp.jpeg" style="width: 100%;">
+                    <h3> Lorem Ipsum </h3>
+                </div>
+
+                <div class="LastActu3">
+                    <img src="style/Assets/Temp.jpeg" style="width: 100%;">
+                    <h3> Lorem Ipsum </h3>
+                </div>
+
+
+
 
     </div>
 
@@ -73,6 +97,7 @@
 
     function WaiterDisapear(x) {
         x.classList.add("disapear");
+        document.body.style.overflow = 'scroll';
     }
 
 </script>
