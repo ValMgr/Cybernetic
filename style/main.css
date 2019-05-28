@@ -6,6 +6,7 @@
 
   body{
       background-color: rgb(255, 255, 255);
+      width: 100vw;
       overflow-x: hidden;
   }
 
@@ -143,9 +144,9 @@
   
 
   #Maille1{
-    grid-column: 1 / 13;
+    grid-column: 1 / 12;
     grid-row: 3;
-
+    transform: scaleX(-1) translateX(15%);
   }
   
 

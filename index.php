@@ -57,7 +57,7 @@
 
                 </div>
 
-                <div id="Maille1"><img src="style/Assets/Maille.png"></div>
+                <img id="Maille1" src="style/Assets/Maille.png">
 
                 <div class="HexagonGroup1">
                     <div class="hexagon1" id="hexagon11"></div>
