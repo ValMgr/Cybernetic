@@ -60,8 +60,8 @@
                 <img id="Maille1" src="style/Assets/Maille.png">
 
                 <div class="HexagonGroup1">
-                    <div class="hexagon1" id="hexagon11"></div>
-                    <div class="hexagon1" id="hexagon12"></div>
+                    <div id="hexagon1"></div>
+                    <div id="hexagon2"></div>
                     <h3 id="hexagon1-title">LE PROJET</h3>
                 </div>
 
