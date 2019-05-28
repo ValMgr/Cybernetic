@@ -50,8 +50,8 @@
                     <p> En partenariat avec la Gendarmerie Nationale, le projet CyberNeTic vise à mener une recherche-action au coeur des sciences
                         de l'information et de la communication pour étudier les formes d'expression de la violence au moyen des nouvelles
                         technologies et tout particulièrement celle du cyberharcèlement. Il s'agit d'analyser les discours d'expériences
-                        (victimes, enquêteurs) et les échanges de conversations (sms, réseaux sociaux, mails, etc.), afin d'indentifier
-                         les phénomène d'engrenage, les stratégies d'influence et de manipulation enclenchés par les prédateurs. </p>
+                        (victimes, enquêteurs) et les échanges de conversations (sms, réseaux sociaux, mails, etc.), afin d'indentifier 
+                        les phénomène d'engrenage, les stratégies d'influence et de manipulation enclenchés par les prédateurs. </p>
 
                     <!-- <a> Lire la suite </a> -->
 
