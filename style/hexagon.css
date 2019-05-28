@@ -1,8 +1,8 @@
     .hexagon1 {
         position: relative;
-        width: 200px; 
-        height: 115.47px;
-        margin: 57.74px 0;
+        width: 250px; 
+        height: 145.64px;
+        margin: 67.82px 0;
         opacity: 0.65;
       }
       
@@ -11,19 +11,19 @@
         content: "";
         position: absolute;
         width: 0;
-        border-left: 100px solid transparent;
-        border-right: 100px solid transparent;
+        border-left: 125px solid transparent;
+        border-right: 125px solid transparent;
       }
       
       .hexagon1:before {
         bottom: 100%;
-        border-bottom: 57.74px solid #03AFA8;
+        border-bottom: 67.82px solid #03AFA8;
       }
       
       .hexagon1:after {
         top: 100%;
         width: 0;
-        border-top: 57.74px solid #03AFA8;
+        border-top: 67.82px solid #03AFA8;
       }
 
       #hexagon11{
@@ -31,20 +31,20 @@
         
       }
       #hexagon11:before{
-        border-bottom: 57.74px solid #03AFA8;
+        border-bottom: 67.82px solid #03AFA8;
 
 
       }
       #hexagon11:after{
-        border-top: 57.74px solid #03AFA8;
+        border-top: 67.82px solid #03AFA8;
       }
 
       #hexagon12{
         background-color: #174691;
       }
       #hexagon12:before{
-        border-bottom: 57.74px solid #174691;
+        border-bottom: 67.82px solid #174691;
       }
       #hexagon12:after{
-        border-top: 57.74px solid #174691;
+        border-top: 67.82px solid #174691;
       }

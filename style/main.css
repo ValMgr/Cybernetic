@@ -24,7 +24,7 @@
     height: 100vh;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    z-index: 2;
+    z-index: 10;
   }
 
   .disapear{
@@ -67,7 +67,8 @@
     color: rgb(0, 0, 0);
     z-index: 0;
     grid-row: 3;
-    grid-column: 6 / 11;
+    grid-column: 5 / 11;
+    text-align: : justify;
   }
 
   .content h2{
@@ -77,8 +78,10 @@
   }
 
   .content p{
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-family: 'Roboto';
+    color: rgb(20, 20, 20);
+    text-align: justify;
   }
   
 
@@ -95,6 +98,7 @@
     font-size: 1.5em;
     font-family: 'Roboto';
     margin-right: 20px;
+    font-weight: bold;
   }
 
   .navbar a:hover{
@@ -110,26 +114,31 @@
   .HexagonGroup1{
     grid-column: 3 / 4;
     grid-row: 3; 
+    transform: translate(0px, -50px);
   }
 
   .HexagonGroup1 h3{
     color: white;
     font-family: 'Roboto';
-    font-size: 1.5em;
+    font-size: 2.3em;
     position: relative;
+    font-weight: medium;
  
   }
 
   #hexagon11{
     position: absolute;
+    z-index: 5;
   }
   #hexagon12{
     position: relative;
     transform: translate(-20px, 30px);
+    z-index: 4;
   }
   #hexagon1-title{
     position: relative;
-    transform: translate(15px, -125px);
+    transform: translate(25px, -160px);
+    z-index: 6;
   }
   
   
