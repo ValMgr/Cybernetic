@@ -45,7 +45,7 @@
                     <a href="#"><i class="fas fa-search"></i></a>
                 </div>
 
-                <div id="Maille1"></div>
+                <div id="MailleHome1"></div>
 
                 <div class="About">
 

@@ -7,10 +7,7 @@
     <title>CyberNeTic</title>
     <link rel="stylesheet" type="text/css" media="screen" href="style/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="style/mainResponsive.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="style/projet.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="style/projetResponsive.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="style/hexagon.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="style/hexagonResponsive.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> 
 
@@ -29,7 +26,7 @@
                     <a href="#"><i class="fas fa-search"></i></a>
                 </div>
 
-                <div id="Maille1"></div>
+                <div id="MailleProjet1"></div>
 
                 <div class="HexagonGroup1">
                     <div class="hexagone3">
