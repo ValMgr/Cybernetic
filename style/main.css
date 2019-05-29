@@ -20,6 +20,8 @@
 }
 
 
+/* HOME PAGE */
+
   .waiter{
     background: no-repeat url('Assets/Maille.png'), rgb(255, 255, 255);
 
@@ -98,7 +100,7 @@
   #UselessBar{
     grid-column: 4 / 7;
     grid-row: 4;
-    width: 350px;
+    width: 20vw;
     height: 4px;
     background-color: #006579;
     transform: translate(15px, 20px);
@@ -189,11 +191,24 @@
     background-color: #ececec;
   }
 
-  #desc {
+
+
+
+
+  /* PROJECT PAGE */
+
+  .description {
     background-color: #EFEFEF;
     grid-column: 1 / 13;
-    grid-row: 10 / 16;
+    grid-row: 11 / 16;
+    position: relative;
+  }
+
+  #desc {
+    grid-column: 4 / 10;
+    grid-row: 12 / 16;
     z-index: 15;
+    position: relative;
   }
 
   #desc p {
@@ -204,11 +219,6 @@
     text-align: justify;
   }
 
-  .descrption {
-    grid-column: 4 / 9;
-    grid-row: 10 / 16;
-    background-color: blue;
-  }
 
   #desc h2 {
     grid-column: 4 / 7;
@@ -232,22 +242,35 @@
     position: relative;
     z-index: 10;
   }
-  
-  /* J'ai récup ça c'est bizarre */
-  /* .HexagonGroup1{
-    grid-column: 3 / 9;
-    grid-row: 4; 
-    transform: translate(0px, 300px);
-  }
 
-  .HexagonGroup1 h1{
-    color: #456AA6;
-    font-family: 'Roboto';
-    font-size: 3em;
-    position: relative;
-    font-weight: bold;
- 
-  } */
+  .HexagonGroup4{
+    grid-column: 4 / 5;
+    grid-row: 6;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
