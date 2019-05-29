@@ -31,7 +31,7 @@
                 <div class="HexagonGroup4">
                     <div id="hexagon8"></div>
                     <div id="hexagon9"></div>
-                    <h3 id="hexagon4-title">LE TITRE</h3>
+                    <h3 id="hexagon4-title">A propos du projet</h3>
                 </div>
 
                 <div class="description"></div>
@@ -56,6 +56,10 @@
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
+                </div>
+
+                <div class="HexagonGroup5">
+                    <div id="hexagon10"></div>
                 </div>
 
         </div>
