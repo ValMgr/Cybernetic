@@ -80,16 +80,7 @@
     text-align: justify;
   }
 
-  .About a{
-    color: #03AFA8;
-    font-size: 1.4em;
-    font-family: 'Roboto';
-    border: solid 2px #03AFA8;
-    position: absolute;
-    text-decoration: none;
-    margin: 20px;
-    padding: 5px;
-  }
+
 
   .About a:hover{
     color: rgb(4, 206, 199);
@@ -114,7 +105,7 @@
     margin: 10px;
   }
 
-  .navbar a{
+  .navbar a,img{
     color: #174691;
     text-decoration: none;
     font-size: 1.2em;
@@ -126,6 +117,38 @@
   .navbar a:hover{
     color: #03AFA8;
     border-bottom: solid;
+  }
+
+  .navbar img{
+   height: 25px;
+   width: 25px;
+  }
+
+  #LangDropdown:hover #LangDropdown-content{
+    display: block;
+  }
+
+  #LangDropdown{
+    position: relative;
+    display: inline-block;
+  }
+
+  #LangDropdown-content{
+    display: none;
+    position: absolute;
+    width: 50px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px;
+    z-index: 1;
+  }
+
+  .LangDropdown-content{
+    margin-bottom: 5px;
+  }
+
+  .LangDropdown-content:hover{
+    opacity: 0.6;
   }
 
   #select{
@@ -172,25 +195,82 @@
     transform: translateX(100px);
   }
 
-  .LastActu1{
-    grid-column: 3 / 5;
-    grid-row: 11 / 15;
-    width: 300px;
-    background-color: #ececec;
-  }
 
-  .LastActu2{
-    grid-column: 6 / 8;
-    grid-row: 11 / 15;
-    background-color: #ececec;
-  }
+ .LastActu{
+   grid-column: 3 / 11;
+   grid-row: 11 / 16;
+   display: block;
+ }
 
-  .LastActu3{
-    grid-column: 9 / 11;
-    grid-row: 11 / 15;
-    background-color: #ececec;
-  }
+ .LastActu h3{
+   color: #03AFA8;
+   font-size: 1.8em;
+   font-family: 'Roboto';
+   padding: 10px;
+ }
 
+ .ActuDate{
+  color: #03AFA8 !important;
+ }
+
+ .LastActu p{
+   color: #BEBEBE;
+   padding: 10px;
+   font-family: 'Roboto';
+   font-size: 1.2em;
+ }
+
+ .LastActu a{
+   padding: 10px;
+   color: #03AFA8;
+   text-decoration: unset;
+   font-family: 'Roboto';
+   font-size: 1.2;
+ }
+
+ .ActuDate{
+  color: #03AFA8
+ }
+
+ #LastActu1{
+  width: 300px;
+  height: 400px;
+  background-color: rgba(23, 70, 145, 0.10);
+  position: absolute;
+}
+
+#LastActu2{
+  width: 300px;
+  height: 400px;
+  background-color: rgba(23, 70, 145, 0.10);
+  position: absolute;
+  left: 42.5%;
+}
+
+#LastActu3{
+  width: 300px;
+  height: 400px;
+  background-color: rgba(23, 70, 145, 0.10);
+  position: absolute;
+  left: 70%;
+
+}
+
+.More{
+  color: #03AFA8;
+  font-size: 1.4em;
+  font-family: 'Roboto';
+  border: solid 2px #03AFA8;
+  position: absolute;
+  text-decoration: none;
+  margin: 20px;
+  padding: 5px;
+}
+
+  .ActuMore{
+    grid-row: 15;
+    grid-column: 6;
+  }
 
 
 

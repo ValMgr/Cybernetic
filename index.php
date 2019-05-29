@@ -42,7 +42,14 @@
                     <a href="#">EN IMAGE</a>
                     <a href="#">RESSOURCES</a>
                     <a href="#">CONTACT</a>
+                    <a href="#"><i class="fas fa-home"></i></a>
                     <a href="#"><i class="fas fa-search"></i></a>
+                    <div id="LangDropdown"><img src="style/Assets/Icon/france.svg">
+                        <div id="LangDropdown-content">
+                            <img src="style/Assets/Icon/spain.svg" class="LangDropdown-content">
+                            <img src="style/Assets/Icon/united-kingdom.svg" class="LangDropdown-content">
+                        </div>
+                    </div>
                 </div>
 
                 <div id="MailleHome1"></div>
@@ -55,7 +62,7 @@
                         (victimes, enquêteurs) et les échanges de conversations (sms, réseaux sociaux, mails, etc.), afin d'indentifier 
                         les phénomène d'engrenage, les stratégies d'influence et de manipulation enclenchés par les prédateurs. </p>
 
-                    <a href="#">En savoir plus</a>
+                    <a href="#" class="More">En savoir plus</a>
 
                 </div>
 
@@ -71,21 +78,33 @@
 
                 <div class="Actuality"> <h2>ACTUALITES</h2> </div>
 
-                <div class="LastActu1">
-                    <img src="style/Assets/Temp.jpeg" style="width: 100%;">
-                    <h3> Lorem Ipsum </h3>
+                <div class="LastActu">
+                    <div id="LastActu1">
+                        <img src="style/Assets/Temp.jpeg" style="width: 100%;">
+                        <h3> Lorem Ipsum </h3>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. </p>
+                        <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
+                        <p class="ActuDate"><i class="far fa-clock"> 03.06.19</i>
+                    </div>
+
+                    <div id="LastActu2">
+                        <img src="style/Assets/Temp.jpeg" style="width: 100%;">
+                        <h3> Lorem Ipsum </h3>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. </p>
+                        <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
+                        <p class="ActuDate"><i class="far fa-clock"> 03.06.19</i>
+                    </div>
+
+                    <div id="LastActu3">
+                        <img src="style/Assets/Temp.jpeg" style="width: 100%;">
+                        <h3> Lorem Ipsum </h3>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. </p>
+                        <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
+                        <p class="ActuDate"><i class="far fa-clock"> 03.06.19</i>
+                    </div>
                 </div>
 
-                <div class="LastActu2">
-                    <img src="style/Assets/Temp.jpeg" style="width: 100%;">
-                    <h3> Lorem Ipsum </h3>
-                </div>
-
-                <div class="LastActu3">
-                    <img src="style/Assets/Temp.jpeg" style="width: 100%;">
-                    <h3> Lorem Ipsum </h3>
-                </div>
-
+                <div class="ActuMore"><a href="#" class="More">En savoir plus</a><div>
 
 
 
