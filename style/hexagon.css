@@ -28,17 +28,68 @@
 #hexagon1-title{
   position: relative;
   z-index: 5;
-  transform: translate(15px, -140px);
+  transform: translate(35px, -140px);
 }
 
 
 
 
 
-
-
-
-
-
-
 /*  OTHER PAGE  */
+
+
+#hexagon3-1 {
+float: left;
+border-right: 35px solid #03AFA8;
+border-top: 67px solid transparent;
+border-bottom: 67px solid transparent;
+  opacity: 0.2;
+}
+
+#hexagon3-2 {
+float: left;
+width: 85px;
+height: 134px;
+background-color: #03AFA8;
+  opacity: 0.2;
+}
+
+#hexagon3-3 {
+float: left;
+border-left: 35px solid #03AFA8;
+border-top: 67px solid transparent;
+border-bottom: 67px solid transparent;
+  opacity: 0.2;
+}
+
+
+.hexagone4 {
+  transform: translate(-152.5px, 2px);
+}
+
+#hexagon4-1 {
+float: left;
+border-right: 33.5px solid white;
+border-top: 65px solid transparent;
+border-bottom: 65px solid transparent;
+}
+
+#hexagon4-2 {
+float: left;
+width: 83px;
+height: 130px;
+background-color: white;
+}
+
+#hexagon4-3 {
+float: left;
+border-left: 33px solid white;
+border-top: 65px solid transparent;
+border-bottom: 65px solid transparent;
+}
+
+#hexagon3-title{
+  position: relative;
+  z-index: 5;
+  transform: translate(-220px, 50px);
+}

@@ -37,7 +37,7 @@
         
                 <div class="navbar">
                     <a href="#">ACTUALITES</a>
-                    <a href="#">PROJET</a>
+                    <a href="projet.php">PROJET</a>
                     <a href="#">TEMOIGNAGE</a>
                     <a href="#">EN IMAGE</a>
                     <a href="#">RESSOURCES</a>

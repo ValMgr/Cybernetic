@@ -99,7 +99,7 @@
   #UselessBar{
     grid-column: 4 / 7;
     grid-row: 4;
-    width: 400px;
+    width: 350px;
     height: 4px;
     background-color: #006579;
     transform: translate(15px, 20px);
@@ -116,7 +116,7 @@
   .navbar a{
     color: #174691;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-family: 'Roboto';
     margin-right: 50px;
     font-weight: bold;
