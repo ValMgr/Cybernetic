@@ -28,23 +28,17 @@
 
                 <div id="MailleProjet1"></div>
 
-                <div class="HexagonGroup1">
-                    <div class="hexagone3">
-                        <div id="hexagon3-1"></div>
-                        <div id="hexagon3-2"></div>
-                        <div id="hexagon3-3"></div>
-                    </div>
-                    <div class="hexagone4">
-                        <div id="hexagon4-1"></div>
-                        <div id="hexagon4-2"></div>
-                        <div id="hexagon4-3"></div>
-                    </div>
-                    <h1 id="hexagon3-title">A propos du projet</h1>
+                <div class="HexagonGroup4">
+                    <div id="hexagon8"></div>
+                    <div id="hexagon9"></div>
+                    <h3 id="hexagon4-title">LE TITRE</h3>
                 </div>
 
+                <div class="description"></div>
+
                 <div id="desc">
-                    <div class="descrption"></div>
-                    <!-- <h2>CYBERNETIC C'EST QUOI ?</h2>
+                    
+                    <h2>CYBERNETIC C'EST QUOI ?</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -62,7 +56,7 @@
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
- -->                </div>
+                </div>
 
         </div>
 

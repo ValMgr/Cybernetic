@@ -35,61 +35,31 @@
 
 
 
-/*  OTHER PAGE  */
 
 
-#hexagon3-1 {
-float: left;
-border-right: 35px solid #03AFA8;
-border-top: 67px solid transparent;
-border-bottom: 67px solid transparent;
-  opacity: 0.2;
+/*  PROJECT PAGE  */
+
+
+#hexagon8{
+  width: 96px;
+  height: 96px;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-color: rgb(255, 255, 255);
+  transform: rotate(90deg) translate(2px, -2px);
+
+  position: absolute;
+  z-index: 4;
 }
 
-#hexagon3-2 {
-float: left;
-width: 85px;
-height: 134px;
-background-color: #03AFA8;
-  opacity: 0.2;
-}
+#hexagon9{
+  width: 100px;
+  height: 100px;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-color: rgb(3, 175, 168);
+  transform: rotate(90deg);
 
-#hexagon3-3 {
-float: left;
-border-left: 35px solid #03AFA8;
-border-top: 67px solid transparent;
-border-bottom: 67px solid transparent;
-  opacity: 0.2;
-}
-
-
-.hexagone4 {
-  transform: translate(-152.5px, 2px);
-}
-
-#hexagon4-1 {
-float: left;
-border-right: 33.5px solid white;
-border-top: 65px solid transparent;
-border-bottom: 65px solid transparent;
-}
-
-#hexagon4-2 {
-float: left;
-width: 83px;
-height: 130px;
-background-color: white;
-}
-
-#hexagon4-3 {
-float: left;
-border-left: 33px solid white;
-border-top: 65px solid transparent;
-border-bottom: 65px solid transparent;
-}
-
-#hexagon3-title{
   position: relative;
-  z-index: 5;
-  transform: translate(-220px, 50px);
+  z-index: 3;
 }
