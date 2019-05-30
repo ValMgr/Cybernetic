@@ -8,12 +8,11 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="style/mainResponsive.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="style/hexagon.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="style/hexagonResponsive.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> 
 
 </head>
-<body>
+<body style="overflow: hidden;">
 
     <div class="wrapper">
 
@@ -69,10 +68,10 @@
                 <div id="UselessBar"></div>
                 
 
-                <div class="HexagonGroup1">
-                    <div id="hexagon1"></div>
-                    <div id="hexagon2"></div>
-                    <h3 id="hexagon1-title">LE PROJET</h3>
+                <div class="HexagonGroupHome1">
+                    <div id="hexagonHome1"></div>
+                    <div id="hexagonHome2"></div>
+                    <h3 id="hexagonHome1-title">LE PROJET</h3>
                 </div>
 
 
@@ -104,7 +103,33 @@
                     </div>
                 </div>
 
-                <div class="ActuMore"><a href="#" class="More">En savoir plus</a><div>
+                <div class="ActuMore"><a href="#" class="More">EN VOIR PLUS</a></div>
+
+
+
+                <div id="MailleHome2"></div>
+
+                <div class="Partner"> <h2>NOS PARTENAIRES</h2> </div>
+
+                <div id="MailleHome3"></div>
+
+                <div class="HexagonGroupHome2">
+                    <img class="hexagonHome3" src="style/Assets/Logo-GN.svg">
+                    <div class="hexagonHome4"></div>
+                    <div id="hexagonHome5"></div>
+                </div>
+
+                <div class="HexagonGroupHome3">
+                    <img class="hexagonHome3" src="style/Assets/logo-Orange.png" style="padding: 30px;">
+                    <div class="hexagonHome4"></div>
+                    <div id="hexagonHome6"></div>
+                </div>
+
+                <div class="HexagonGroupHome4">
+                    <img class="hexagonHome3" src="style/Assets/Logo-UB.jpg" style="padding: 0px;">
+                    <div class="hexagonHome4"></div>
+                    <div id="hexagonHome7"></div>
+                </div>
 
 
 

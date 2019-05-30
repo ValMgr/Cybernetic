@@ -78,9 +78,13 @@
     font-family: 'Roboto';
     color: rgb(0, 0, 0);
     text-align: justify;
+    
   }
 
-
+  .About a{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
 
   .About a:hover{
     color: rgb(4, 206, 199);
@@ -156,13 +160,13 @@
     border-bottom: solid;
   }
 
-  .HexagonGroup1{
+  .HexagonGroupHome1{
     grid-column: 3 / 4;
     grid-row: 4; 
     transform: translate(0px, -50px);
   }
 
-  .HexagonGroup1 h3{
+  .HexagonGroupHome1 h3{
     color: white;
     font-family: 'Roboto';
     font-size: 2.3em;
@@ -183,14 +187,15 @@
   }
   
   .Actuality{
-    grid-column: 3 / 11;
-    grid-row: 10;
+    grid-column: 3;
+    grid-row: 12;
   }
 
   .Actuality h2{
     font-family: 'Roboto';
     font-size: 2em;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    border-bottom: solid 2px #174691;
     color: #174691;
     transform: translateX(100px);
   }
@@ -198,7 +203,7 @@
 
  .LastActu{
    grid-column: 3 / 11;
-   grid-row: 11 / 16;
+   grid-row: 13 / 18;
    display: block;
  }
 
@@ -217,7 +222,7 @@
    color: #BEBEBE;
    padding: 10px;
    font-family: 'Roboto';
-   font-size: 1.2em;
+   font-size: 1.1em;
  }
 
  .LastActu a{
@@ -263,13 +268,62 @@
   border: solid 2px #03AFA8;
   position: absolute;
   text-decoration: none;
-  margin: 20px;
-  padding: 5px;
+  padding: 10px 30px 10px 30px;
 }
 
   .ActuMore{
-    grid-row: 15;
+    grid-row: 17;
     grid-column: 6;
+  }
+
+  #MailleHome2{
+    background-image: url('Assets/Maille2.png');
+    transform: rotate(90deg);
+    transform-origin: bottom left;
+    grid-row: 5 / 7;
+    grid-column: 1 / 12;
+    opacity: 0.15;
+  }
+
+  .Partner{
+    grid-row: 22;
+    grid-column: 9 / 11;
+  }
+
+  .Partner h2{
+    font-family: 'Roboto';
+    font-size: 2em;
+    /* text-decoration: underline; */
+    color: #174691;
+    border-bottom: solid 2px #174691;
+    width: 10em;
+    text-align: right;
+  }
+
+
+  #MailleHome3{
+    background: url('Assets/Maille.png') 0 0 no-repeat;
+    grid-column: 1 / 13;
+    grid-row: 23 / 29;
+    transform: scaleX(-1);
+  }
+
+  .HexagonGroupHome2{
+    grid-row: 24;
+    grid-column: 3 / 5;
+    position: relative;
+  }
+
+  .HexagonGroupHome3{
+    grid-row: 26;
+    grid-column: 5 / 6;
+    position: relative;
+  }
+
+  .HexagonGroupHome4{
+    grid-row: 25;
+    grid-column: 9 / 10;
+    position: relative;
   }
 
 
