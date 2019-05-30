@@ -99,26 +99,46 @@
 /*  PROJECT PAGE  */
 
 
-#hexagonProject1{
-  width: 96px;
-  height: 96px;
+#hexagon8{
+  width: 144px;
+  height: 166.5px;
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   background-color: rgb(255, 255, 255);
-  transform: rotate(90deg) translate(2px, -2px);
+  transform: rotate(90deg) translate(3px, -3px);
 
   position: absolute;
   z-index: 4;
 }
 
-#hexagonProject2{
-  width: 100px;
-  height: 100px;
+#hexagon9{
+  width: 150px;
+  height: 172.5px;
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   background-color: rgb(3, 175, 168);
   transform: rotate(90deg);
 
   position: relative;
+  opacity: 0.2;
+  z-index: 3;
+}
+
+#hexagon4-title{
+  position: relative;
+  z-index: 5;
+  transform: translate(80px, -90px);
+}
+
+#hexagon10{
+  width: 400px;
+  height: 475px;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-color: rgb(3, 175, 168);
+  transform: rotate(90deg);
+
+  position: relative;
+  opacity: 0.5;
   z-index: 3;
 }
