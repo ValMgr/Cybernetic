@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> 
 
 </head>
-<body>
+<body style="overflow: hidden;">
 
     <div class="wrapper">
 
@@ -120,7 +120,7 @@
                 </div>
 
                 <div class="HexagonGroupHome3">
-                    <img class="hexagonHome3" src="style/Assets/Logo-Orange.png" style="padding: 30px;">
+                    <img class="hexagonHome3" src="style/Assets/logo-Orange.png" style="padding: 30px;">
                     <div class="hexagonHome4"></div>
                     <div id="hexagonHome6"></div>
                 </div>
