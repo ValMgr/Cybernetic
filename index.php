@@ -29,19 +29,19 @@
             <p id="date"></p>
 
 
-        </div>
+    </div>
 
     
 
         
                 <div class="navbar">
-                    <a href="#">ACTUALITES</a>
+                    <a href="Redirection.php">ACTUALITES</a>
                     <a href="projet.php">PROJET</a>
-                    <a href="#">TEMOIGNAGE</a>
-                    <a href="#">EN IMAGE</a>
-                    <a href="#">RESSOURCES</a>
-                    <a href="#">CONTACT</a>
-                    <a href="#"><i class="fas fa-home"></i></a>
+                    <a href="Redirection.php">TEMOIGNAGE</a>
+                    <a href="Redirection.php">EN IMAGE</a>
+                    <a href="Redirection.php">RESSOURCES</a>
+                    <a href="Redirection.php">CONTACT</a>
+                    <a href="index.php"><i class="fas fa-home"></i></a>
                     <a href="#"><i class="fas fa-search"></i></a>
                     <div id="LangDropdown"><img src="style/Assets/Icon/france.svg">
                         <div id="LangDropdown-content">
@@ -61,7 +61,7 @@
                         (victimes, enquêteurs) et les échanges de conversations (sms, réseaux sociaux, mails, etc.), afin d'indentifier 
                         les phénomène d'engrenage, les stratégies d'influence et de manipulation enclenchés par les prédateurs. </p>
 
-                    <a href="#" class="More">En savoir plus</a>
+                    <a href="projet.php" class="More">En savoir plus</a>
 
                 </div>
 
@@ -103,7 +103,7 @@
                     </div>
                 </div>
 
-                <div class="ActuMore"><a href="#" class="More">EN VOIR PLUS</a></div>
+                <div class="ActuMore"><a href="Redirection.php" class="More">EN VOIR PLUS</a></div>
 
 
 
@@ -120,7 +120,7 @@
                 </div>
 
                 <div class="HexagonGroupHome3">
-                    <img class="hexagonHome3" src="style/Assets/logo-Orange.png" style="padding: 30px;">
+                    <img class="hexagonHome3" src="style/Assets/Logo_Orange.jpg" style="padding: 40px;">
                     <div class="hexagonHome4"></div>
                     <div id="hexagonHome6"></div>
                 </div>
