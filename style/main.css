@@ -330,6 +330,29 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* PROJECT PAGE */
 
   #MailleProjet1{
@@ -338,21 +361,35 @@
     background-image: url('Assets/Maille2.png');
     background-repeat: no-repeat;
     background-size: auto 105%;
-    opacity: 0.6;
+    opacity: 0.5;
     transform: scaleX(1) translateX(0);
     position: relative;
     z-index: 10;
   }
 
- .HexagonGroup4{
+  #MailleProjet2{
+    grid-column: 1 / 12;
+    grid-row: 13 / 22;
+    background-image: url('Assets/Maille2.png');
+    background-repeat: no-repeat;
+    background-size: auto 105%;
+    opacity: 0.3;
+    transform: translate(-250px 0px);
+    position: relative;
+    z-index: 10;
+    float: left;
+    transform: rotate(180deg);
+  }
+
+ .HexagonGroupProject1{
     grid-column: 2 / 6;
     grid-row: 6;
   }
   
-  .HexagonGroup4 h3{
+  .HexagonGroupProject1 h2{
     color: #174691;
     font-family: 'Roboto';
-    font-size: 3em;
+    font-size: 2.8em;
     position: relative;
     font-weight: medium;
     opacity: 0.9;
@@ -366,33 +403,270 @@
   }
 
   #desc {
-    grid-column: 3 / 10;
-    grid-row: 9 / 15;
+    grid-column: 4 / 10;
+    grid-row: 9 / 14;
     z-index: 15;
     position: relative;
   }
 
-  #desc h2 {
+  #desc h3 {
     color: #03AFA8;
     font-family: 'Roboto';
-    font-size: 2.5em;
+    font-size: 2.1em;
     font-weight: medium;
     text-decoration: underline;
     margin-bottom: 35px;
   }
 
-  #desc p {
+  #desc p,li {
     color: #BEBEBE;
     font-family: 'Roboto';
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: bold;
     text-align: justify;
-    margin-bottom: 50px;
   }
 
-  .HexagonGroup5{
+  #desc p.descparag1 {
+    margin-bottom: 65px;
+  }
+
+  #desc li {
+    margin-bottom: 20px;
+  }
+
+  .HexagonGroupProject2{
     transform: translate(-275px, -285px);
   }
+
+  h3.chiffres {
+    color: #174691;
+    font-family: 'Roboto';
+    font-size: 2.1em;
+    text-decoration: underline;
+    grid-column: 9 / 12;
+    transform: translate(0px, -650px);
+    font-weight: medium;
+  }
+
+  .HexagonGroupProject3 {
+    grid-column: 2 / 5;
+    grid-row: 18 / 21;
+  }
+
+  .HexagonGroupProject3 h4 {
+    font-family: 'Roboto';
+    font-size: 2.2em;
+    color: #006579;
+    text-align: center;
+    font-weight: medium;
+    margin-bottom: 20px;
+  }
+
+  .HexagonGroupProject3 p{
+    font-family: 'Roboto';
+    font-size: 1.4em;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .HexagonGroupProject4 {
+    grid-column: 6 / 9;
+    grid-row: 20 / 23;
+  }
+
+  .HexagonGroupProject4 h4 {
+    font-family: 'Roboto';
+    font-size: 2.2em;
+    color: #006579;
+    text-align: center;
+    font-weight: medium;
+    margin-bottom: 15px;
+  }
+
+  .HexagonGroupProject4 p{
+    font-family: 'Roboto';
+    font-size: 1.3em;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .HexagonGroupProject5 {
+    grid-column: 10 / 13;
+    grid-row: 17 / 20;
+  }
+
+  .HexagonGroupProject5 h4 {
+    font-family: 'Roboto';
+    font-size: 2.2em;
+    color: #006579;
+    text-align: center;
+    font-weight: medium;
+    margin-bottom: 20px;
+  }
+
+  .HexagonGroupProject5 p{
+    font-family: 'Roboto';
+    font-size: 1.4em;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #equip {
+    grid-column: 2 / 4;
+    grid-row: 24;
+    transform: translate(0px, 75px);
+  }
+
+  #equip h3 {
+    color: #174691;
+    font-family: 'Roboto';
+    font-size: 2.1em;
+    text-decoration: underline;
+    float: left;
+    font-weight: medium;
+  }
+
+  .HexagonGroupProject6 {
+    grid-column: 3 / 5;
+    grid-row: 26; 
+  }
+
+  #Marlene {
+    grid-row: 26;
+    grid-column: 5 / 11;
+  }
+
+  #Marlene h3 {
+    color: #BEBEBE;
+    font-size: 1.5em;
+    font-family: 'Roboto';
+    font-weight: bold;
+  }
+
+  #Marlene h4 {
+    color: #BEBEBE;
+    font-size: 1em;
+    font-family: 'Roboto';
+    font-weight: lighter;
+  }
+
+  #Marlene p {
+    color: #BEBEBE;
+    font-size: 1.2em;
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-align: justify;
+  }
+
+  .HexagonGroupProject7 {
+    grid-column: 9 /11;
+    grid-row: 29; 
+  }
+
+  #Jerome {
+    grid-row: 29;
+    grid-column: 3 / 9;
+  }
+
+  #Jerome h3 {
+    color: #BEBEBE;
+    font-size: 1.5em;
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-align: right;
+  }
+
+  #Jerome h4 {
+    color: #BEBEBE;
+    font-size: 1em;
+    font-family: 'Roboto';
+    font-weight: lighter;
+    text-align: right;
+  }
+
+  #Jerome p {
+    color: #BEBEBE;
+    font-size: 1.2em;
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-align: justify;
+    direction: rtl;
+  }
+
+  .HexagonGroupProject8 {
+    grid-column: 3 / 5;
+    grid-row: 32; 
+  }
+
+  #JeanChristophe {
+    grid-row: 32;
+    grid-column: 5 / 11;
+  }
+
+  #JeanChristophe h3 {
+    color: #BEBEBE;
+    font-size: 1.5em;
+    font-family: 'Roboto';
+    font-weight: bold;
+  }
+
+  #JeanChristophe h4 {
+    color: #BEBEBE;
+    font-size: 1em;
+    font-family: 'Roboto';
+    font-weight: lighter;
+  }
+
+  #JeanChristophe p {
+    color: #BEBEBE;
+    font-size: 1.2em;
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-align: justify;
+  }
+
+  #partenaires {
+    background-color: #EFEFEF;
+    grid-column: 1 / 13;
+    grid-row: 36 / 40;
+    position: relative;
+  }
+
+   .HexagonGroupProject9{
+    grid-column: 3 / 5;
+    grid-row: 38;
+  }
+
+  .HexagonGroupProject10{
+    grid-column: 6 / 8;
+    grid-row: 38;
+  }
+
+  .HexagonGroupProject11{
+    grid-column: 9 / 11;
+    grid-row: 38;
+    position: relative;
+    float: right;
+  }
+
+  #partenaires h3 {
+    color: #03AFA8;
+    font-family: 'Roboto';
+    font-size: 1.8em;
+    font-weight: medium;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 100px;
+  }
+
+
+
+
+
+
 
 
 
