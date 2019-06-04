@@ -182,12 +182,16 @@
 }
 
 #hexagonProject3-title{
-  position: relative;
+  position: absolute;
   z-index: 20;
-  transform: translate(-60px, 100px);
+  transform: translate(55px, 100px);
 }
 
-
+#hexagonProject3-parag{
+  position: absolute;
+  z-index: 20;
+  transform: translate(45px, 150px);
+}
 
 #hexagonProject4{
   width: 300px;
@@ -215,9 +219,15 @@
 }
 
 #hexagonProject4-title{
-  position: relative;
+  position: absolute;
   z-index: 20;
-  transform: translate(-60px, 100px);
+  transform: translate(30px, 100px);
+}
+
+#hexagonProject4-parag{
+  position: absolute;
+  z-index: 20;
+  transform: translate(40px, 150px);
 }
 
 
@@ -248,10 +258,17 @@
 }
 
 #hexagonProject5-title{
-  position: relative;
+  position: absolute;
   z-index: 20;
-  transform: translate(-60px, 100px);
+  transform: translate(45px, 100px);
 }
+
+#hexagonProject5-parag{
+  position: absolute;
+  z-index: 20;
+  transform: translate(45px, 160px);
+}
+
 
 
 
@@ -368,4 +385,16 @@
   position: relative;
   opacity: 0.2;
   z-index: 3;
+}
+
+.hexagonProjectPartenaire{
+  width: 225px;
+  height: 216px;
+  -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  background-color: white;
+  padding: 20px;
+  position: absolute;
+  z-index: 4;
+  transform: translate(-4px, -235px);
 }
