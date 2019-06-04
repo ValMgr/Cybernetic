@@ -13,12 +13,12 @@
 
 </head>
 <body>
-<body style="overflow: hidden;">
+<!-- <body style="overflow: hidden;"> -->
 
     <div class="wrapper">
 
 
-        <div class="waiter" onclick="WaiterDisapear(this)">
+<!--         <div class="waiter" onclick="WaiterDisapear(this)">
             <div class="waiter-title">
                 <div class="glitch">
                     <h1>CyberNeTic</h1>
@@ -30,7 +30,7 @@
             <p id="date"></p>
 
 
-        </div>
+        </div> -->
 
     
 
@@ -71,7 +71,9 @@
 
                 <div class="HexagonGroupHome1">
                     <div id="hexagonHome1"></div>
+                    <div id="hexagonHome1-1"></div>
                     <div id="hexagonHome2"></div>
+                    <div id="hexagonHome2-2"></div>
                     <h3 id="hexagonHome1-title">LE PROJET</h3>
                 </div>
 
@@ -107,7 +109,6 @@
                 <div class="ActuMore"><a href="Redirection.php" class="More">EN VOIR PLUS</a></div>
 
 
-
                 <div id="MailleHome2"></div>
 
                 <div class="Partner"> <h2>NOS PARTENAIRES</h2> </div>
@@ -115,7 +116,7 @@
                 <div id="MailleHome3"></div>
 
                 <div class="HexagonGroupHome2">
-                    <img class="hexagonHome3" src="style/Assets/Logo-GN.svg">
+                    <img class="hexagonHome3" src="style/Assets/Logo-GN.svg" style="padding: 20px;">
                     <div class="hexagonHome4"></div>
                     <div id="hexagonHome5"></div>
                 </div>
