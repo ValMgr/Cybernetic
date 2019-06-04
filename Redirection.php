@@ -30,7 +30,7 @@
 
         #HexaLoad1{
             width: 250px; /* Pour width: +50 = height +12,5  */
-            height: 262.5px; /* Pour width: +100 = height +25 */
+            height: 290.5px; /* Pour width: +100 = height +25 */
             -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
             clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
             
@@ -43,7 +43,7 @@
 
         #HexaLoad2{
             width: 246px; /* Pour width: +50 = height +12,5  */
-            height: 258.5px; /* Pour width: +100 = height +25 */
+            height: 286.5px; /* Pour width: +100 = height +25 */
             -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
             clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
             opacity: 1;
@@ -63,7 +63,7 @@
             
             opacity: 1;
             background-color: #03AFA8;
-            transform: translate(30px, 25.5px) rotate(90deg); 
+            transform: translate(30px, 75px) rotate(90deg); 
             animation: 2s rotation3 infinite linear;
             position: absolute;
             z-index: 10;

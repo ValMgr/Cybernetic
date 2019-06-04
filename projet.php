@@ -65,9 +65,13 @@
                     </p>
                 </div>
 
-                <!-- <div class="HexagonGroupProject2">
+                <div class="HexagonGroupProject2">
                     <div id="hexagonProject2"></div>
-                </div> -->
+                </div>
+
+                <div class="HexagonGroupProject2-1">
+                    <div id="hexagonProject2-1"></div>
+                </div>
 
                 <div id="MailleProjet2"></div>
 
@@ -116,6 +120,9 @@
                 </div>
 
 
+                <div id="MailleProjet3"></div>
+
+
                 <div class="HexagonGroupProject7">
                     <div id="hexagonProject7"></div>
                 </div>
@@ -144,6 +151,7 @@
 
                 </div>
 
+                <div id="MailleProjet4"></div>
 
                 <div id="partenaires">
                     <h3>NOS PARTENAIRES</h3>
