@@ -135,6 +135,7 @@
   #LangDropdown{
     position: relative;
     display: inline-block;
+    transform: translate(0px, 6px);
   }
 
   #LangDropdown-content{
@@ -441,11 +442,12 @@
   h3.chiffres {
     color: #174691;
     font-family: 'Roboto';
-    font-size: 2.1em;
+    font-size: 2em;
     text-decoration: underline;
-    grid-column: 9 / 12;
+    grid-column: 9 / 13;
     transform: translate(0px, -650px);
     font-weight: medium;
+    float: right;
   }
 
   .HexagonGroupProject3 {
@@ -457,9 +459,7 @@
     font-family: 'Roboto';
     font-size: 2.2em;
     color: #006579;
-    text-align: center;
     font-weight: medium;
-    margin-bottom: 20px;
   }
 
   .HexagonGroupProject3 p{
@@ -530,7 +530,7 @@
   }
 
   .HexagonGroupProject6 {
-    grid-column: 3 / 5;
+    grid-column: 2 / 4;
     grid-row: 26; 
   }
 
@@ -562,7 +562,7 @@
   }
 
   .HexagonGroupProject7 {
-    grid-column: 9 /11;
+    grid-column: 10 /12;
     grid-row: 29; 
   }
 
@@ -597,7 +597,7 @@
   }
 
   .HexagonGroupProject8 {
-    grid-column: 3 / 5;
+    grid-column: 2 / 4;
     grid-row: 32; 
   }
 

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> 
 
 </head>
+<body>
 <body style="overflow: hidden;">
 
     <div class="wrapper">
@@ -29,7 +30,7 @@
             <p id="date"></p>
 
 
-    </div>
+        </div>
 
     
 
@@ -58,8 +59,8 @@
                     <p> En partenariat avec la Gendarmerie Nationale, le projet CyberNeTic vise à mener une recherche-action au coeur des sciences
                         de l'information et de la communication pour étudier les formes d'expression de la violence au moyen des nouvelles
                         technologies et tout particulièrement celle du cyberharcèlement. Il s'agit d'analyser les discours d'expériences
-                        (victimes, enquêteurs) et les échanges de conversations (sms, réseaux sociaux, mails, etc.), afin d'indentifier 
-                        les phénomène d'engrenage, les stratégies d'influence et de manipulation enclenchés par les prédateurs. </p>
+                        (victimes, enquêteurs) et les échanges de conversations (sms, réseaux sociaux, mails, etc.), afin d'identifier 
+                        les phénomènes d'engrenage, les stratégies d'influence et de manipulation enclenchées par les prédateurs. </p>
 
                     <a href="projet.php" class="More">En savoir plus</a>
 
