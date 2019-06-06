@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> 
 
 </head>
+<body>
 <body style="overflow: hidden;">
 
 <?php
@@ -76,8 +77,8 @@
                     <p> En partenariat avec la Gendarmerie Nationale, le projet CyberNeTic vise à mener une recherche-action au coeur des sciences
                         de l'information et de la communication pour étudier les formes d'expression de la violence au moyen des nouvelles
                         technologies et tout particulièrement celle du cyberharcèlement. Il s'agit d'analyser les discours d'expériences
-                        (victimes, enquêteurs) et les échanges de conversations (sms, réseaux sociaux, mails, etc.), afin d'indentifier 
-                        les phénomène d'engrenage, les stratégies d'influence et de manipulation enclenchés par les prédateurs. </p>
+                        (victimes, enquêteurs) et les échanges de conversations (sms, réseaux sociaux, mails, etc.), afin d'identifier 
+                        les phénomènes d'engrenage, les stratégies d'influence et de manipulation enclenchées par les prédateurs. </p>
 
                     <a href="projet.php" class="More">En savoir plus</a>
 
@@ -88,7 +89,9 @@
 
                 <div class="HexagonGroupHome1">
                     <div id="hexagonHome1"></div>
+                    <div id="hexagonHome1-1"></div>
                     <div id="hexagonHome2"></div>
+                    <div id="hexagonHome2-2"></div>
                     <h3 id="hexagonHome1-title">LE PROJET</h3>
                 </div>
 
@@ -124,7 +127,6 @@
                 <div class="ActuMore"><a href="Redirection.php" class="More">EN VOIR PLUS</a></div>
 
 
-
                 <div id="MailleHome2"></div>
 
                 <div class="Partner"> <h2>NOS PARTENAIRES</h2> </div>
@@ -132,7 +134,7 @@
                 <div id="MailleHome3"></div>
 
                 <div class="HexagonGroupHome2">
-                    <img class="hexagonHome3" src="style/Assets/Logo-GN.svg">
+                    <img class="hexagonHome3" src="style/Assets/Logo-GN.svg" style="padding: 20px;">
                     <div class="hexagonHome4"></div>
                     <div id="hexagonHome5"></div>
                 </div>
