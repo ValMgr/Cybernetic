@@ -1,3 +1,8 @@
+<?php 
+    include 'Files/Connect/db_connection.php';
+    include 'Files/Connect/connection_check.php';
+     ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -13,6 +18,8 @@
 
 </head>
 <body>
+
+
 
 
 </body>

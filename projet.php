@@ -1,3 +1,13 @@
+  <?php 
+    //include 'Files/Connect/db_connection.php';
+    //include 'Files/Connect/connection_check.php';
+    //include 'Files/Language/LanguageManager.php';
+
+    session_start();
+
+     ?>
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -15,6 +25,9 @@
     <body>
 
         <div class="wrapper">
+
+
+                <?php echo $_SESSION['Langue']; ?>
 
                 <div class="navbar">
                     <a href="Redirection.php">ACTUALITES</a>
