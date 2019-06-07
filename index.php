@@ -3,10 +3,10 @@
     include 'Files/Connect/connection_check.php';
     //include 'Files/Language/LanguageManager.php';
 
-
-    if(!isset($_SESSION['Langue'])){
-        $_SESSION['Langue'] = 'FRA01';
+    if (!isset($_SESSION['Langue'])) {
+    	$_SESSION['Langue'] = 'FRA01';
     }
+
     
      ?>
 
