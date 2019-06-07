@@ -48,7 +48,7 @@
 
         
                 <div class="navbar">
-                    <a href="Redirection.php">ACTUALITES</a>
+                    <a href="Actualites.php">ACTUALITES</a>
                     <a href="projet.php">PROJET</a>
                     <a href="Redirection.php">TEMOIGNAGE</a>
                     <a href="Redirection.php">EN IMAGE</a>
