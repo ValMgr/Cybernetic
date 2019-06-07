@@ -17,7 +17,7 @@
         <div class="wrapper">
 
                 <div class="navbar">
-                    <a href="Redirection.php">ACTUALITES</a>
+                    <a href="Actualites.php">ACTUALITES</a>
                     <a id="select" href="projet.php">PROJET</a>
                     <a href="Redirection.php">TEMOIGNAGE</a>
                     <a href="Redirection.php">EN IMAGE</a>
