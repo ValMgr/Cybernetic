@@ -196,9 +196,9 @@
 
   .Actuality h2{
     font-family: 'Roboto';
-    font-size: 2em;
-     text-decoration: underline; 
-    /*border-bottom: solid 2px #174691;*/
+    font-size: 2em;/*
+     text-decoration: underline; */
+    border-bottom: solid 2px #174691;
     color: #174691;
     /*transform: translateX(100px);*/
   }
@@ -300,10 +300,10 @@
 
   .Partner h2{
     font-family: 'Roboto';
-    font-size: 2em;
-    text-decoration: underline; 
-    color: #174691;/*
-    border-bottom: solid 2px #174691;*/
+    font-size: 2em;/*
+    text-decoration: underline; */
+    color: #174691;
+    border-bottom: solid 2px #174691;
     width: 10em;
     text-align: right;
     transform: translateY(50px);
