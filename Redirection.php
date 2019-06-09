@@ -1,4 +1,4 @@
-
+<?php header("refresh:3;url=index.php");?> 
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -38,7 +38,6 @@
             background-color: #174691;
             animation: 5s rotation1 infinite linear;
             position: absolute;
-            transform: translateY(-500px);
             z-index: 10;
         }
 
@@ -203,7 +202,9 @@
 
     </div>
 
-    <!-- <script src="js/countdown.js"></script> -->
+    <?php header("refresh:5;url=index.php");?> 
+
+    <script src="js/countdown.js"></script>
 
 
 </body>

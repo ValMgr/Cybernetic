@@ -55,7 +55,7 @@
                     <a href="Actualites.php">ACTUALITES</a>
                     <a href="projet.php">PROJET</a>
                     <a href="Redirection.php">TEMOIGNAGE</a>
-                    <a href="Redirection.php">EN IMAGE</a>
+                    <a href="EnImage.php">EN IMAGE</a>
                     <a href="Redirection.php">RESSOURCES</a>
                     <a href="Redirection.php">CONTACT</a>
                     <a href="index.php"><i class="fas fa-home"></i></a>
@@ -104,31 +104,31 @@
 
                 <div class="LastActu">
                     <div id="LastActu1">
-                        <img src="style/Assets/Temp.jpeg" style="width: 100%;">
-                        <h3> Lorem Ipsum </h3>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. </p>
+                        <img src="style/Assets/Actu1.jpg" style="width: 100%;">
+                        <h3> Le corps du délit </h3>
+                        <p> De la séduction à l’humiliation, le cyberharcèlement en question, les instrumentalisations plurielles du corps dans le cadre de cyberviolences.</p>
                         <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
                         <p class="ActuDate"><i class="far fa-clock"> 03.06.19</i>
                     </div>
 
                     <div id="LastActu2">
-                        <img src="style/Assets/Temp.jpeg" style="width: 100%;">
-                        <h3> Lorem Ipsum </h3>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. </p>
+                        <img src="style/Assets/Actu2.jpg" style="width: 100%;">
+                        <h3 class="longtitle"> Dark net & cybercriminalité</h3>
+                        <p>Le hacking au secours des organisations dans le cadre du programme de recherche CyberNeTic.</p>
                         <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
                         <p class="ActuDate"><i class="far fa-clock"> 03.06.19</i>
                     </div>
 
                     <div id="LastActu3">
-                        <img src="style/Assets/Temp.jpeg" style="width: 100%;">
-                        <h3> Lorem Ipsum </h3>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. </p>
+                        <img src="style/Assets/Actu3.jpg" style="width: 100%;">
+                        <h3 class="longtitle"> Stratégies amoureuses & cyberharcèlement </h3>
+                        <p>Quand le discours manipulateur devient un crime de langue sur les réseaux sociaux. <br><br></p>
                         <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
                         <p class="ActuDate"><i class="far fa-clock"> 03.06.19</i>
                     </div>
                 </div>
 
-                <div class="ActuMore"><a href="Redirection.php" class="More">EN VOIR PLUS</a></div>
+                <div class="ActuMore"><a href="Actualites.php" class="More">EN VOIR PLUS</a></div>
 
 
                 <div id="MailleHome2"></div>
@@ -182,10 +182,10 @@
 
         
                 <div class="navbar">
-                    <a href="Redirection.php">ACTUALITY</a>
+                    <a href="Actualites.php">ACTUALITY</a>
                     <a href="projet.php">PROJECT</a>
                     <a href="Redirection.php">TESTIMONY</a>
-                    <a href="Redirection.php">PICTURES</a>
+                    <a href="EnImage.php">IN PICTURE</a>
                     <a href="Redirection.php">RESSOURCES</a>
                     <a href="Redirection.php">CONTACT</a>
                     <a href="index.php"><i class="fas fa-home"></i></a>
@@ -233,31 +233,31 @@
 
                 <div class="LastActu">
                     <div id="LastActu1">
-                        <img src="style/Assets/Temp.jpeg" style="width: 100%;">
-                        <h3> Lorem Ipsum </h3>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. </p>
+                        <img src="style/Assets/Actu1.jpg" style="width: 100%;">
+                        <h3> Le corps du délit </h3>
+                        <p> De la séduction à l’humiliation, le cyberharcèlement en question, les instrumentalisations plurielles du corps dans le cadre de cyberviolences.</p>
                         <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
                         <p class="ActuDate"><i class="far fa-clock"> 03.06.19</i>
                     </div>
 
                     <div id="LastActu2">
-                        <img src="style/Assets/Temp.jpeg" style="width: 100%;">
-                        <h3> Lorem Ipsum </h3>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. </p>
+                        <img src="style/Assets/Actu2.jpg" style="width: 100%;">
+                        <h3 class="longtitle"> Dark net & cybercriminalité</h3>
+                        <p>Le hacking au secours des organisations dans le cadre du programme de recherche CyberNeTic.</p>
                         <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
                         <p class="ActuDate"><i class="far fa-clock"> 03.06.19</i>
                     </div>
 
                     <div id="LastActu3">
-                        <img src="style/Assets/Temp.jpeg" style="width: 100%;">
-                        <h3> Lorem Ipsum </h3>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. </p>
+                        <img src="style/Assets/Actu3.jpg" style="width: 100%;">
+                        <h3 class="longtitle"> Stratégies amoureuses & cyberharcèlement </h3>
+                        <p>Quand le discours manipulateur devient un crime de langue sur les réseaux sociaux. <br><br></p>
                         <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
                         <p class="ActuDate"><i class="far fa-clock"> 03.06.19</i>
                     </div>
                 </div>
 
-                <div class="ActuMore"><a href="Redirection.php" class="More">EN VOIR PLUS</a></div>
+                <div class="ActuMore"><a href="Actualites.php" class="More">EN VOIR PLUS</a></div>
 
 
 
@@ -315,12 +315,12 @@
 
     
             <div class="navbar">
-                <a href="Redirection.php">ACTUALIDAD</a>
-                <a href="projet.php">VAMOS</a>
-                <a href="Redirection.php">A GAÑAR</a>
-                <a href="Redirection.php">LOS IMAGES</a>
+                <a href="Actualites.php">ACTUALIDAD</a>
+                <a href="projet.php">PROYECTO</a>
+                <a href="Redirection.php">TESTIMONIO</a>
+                <a href="EnImage.php">EN IMAGE</a>
                 <a href="Redirection.php">RESSOURSAS</a>
-                <a href="Redirection.php">SI SEÑOR</a>
+                <a href="Redirection.php">CONTACTAR</a>
                 <a href="index.php"><i class="fas fa-home"></i></a>
                 <a href="#"><i class="fas fa-search"></i></a>
                 <div id="LangDropdown"><img src="style/Assets/Icon/spain.svg">
@@ -367,31 +367,31 @@
 
             <div class="LastActu">
                 <div id="LastActu1">
-                    <img src="style/Assets/Temp.jpeg" style="width: 100%;">
-                    <h3> Lorem Ipsum </h3>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. </p>
+                        <img src="style/Assets/Actu1.jpg" style="width: 100%;">
+                        <h3> Le corps du délit </h3>
+                        <p> De la séduction à l’humiliation, le cyberharcèlement en question, les instrumentalisations plurielles du corps dans le cadre de cyberviolences.</p>
                     <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
                     <p class="ActuDate"><i class="far fa-clock"> 03.06.19</i>
                 </div>
 
                 <div id="LastActu2">
-                    <img src="style/Assets/Temp.jpeg" style="width: 100%;">
-                    <h3> Lorem Ipsum </h3>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. </p>
+                        <img src="style/Assets/Actu2.jpg" style="width: 100%;">
+                        <h3 class="longtitle"> Dark net & cybercriminalité</h3>
+                        <p>Le hacking au secours des organisations dans le cadre du programme de recherche CyberNeTic.</p>
                     <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
                     <p class="ActuDate"><i class="far fa-clock"> 03.06.19</i>
                 </div>
 
                 <div id="LastActu3">
-                    <img src="style/Assets/Temp.jpeg" style="width: 100%;">
-                    <h3> Lorem Ipsum </h3>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. </p>
+                        <img src="style/Assets/Actu3.jpg" style="width: 100%;">
+                        <h3 class="longtitle"> Stratégies amoureuses & cyberharcèlement </h3>
+                        <p>Quand le discours manipulateur devient un crime de langue sur les réseaux sociaux. <br><br></p>
                     <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
                     <p class="ActuDate"><i class="far fa-clock"> 03.06.19</i>
                 </div>
             </div>
 
-            <div class="ActuMore"><a href="Redirection.php" class="More">EN VOIR PLUS</a></div>
+            <div class="ActuMore"><a href="Actualites.php" class="More">EN VOIR PLUS</a></div>
 
 
             <div id="MailleHome2"></div>
