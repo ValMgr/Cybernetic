@@ -953,21 +953,21 @@
   }
 
    #Categorie1, #Categorie3, #Categorie5{
-    width: 500px;
-    height: 300px;
+    width: 38vw;
+    height: 10vh;
     border-radius: 3px;
     position: absolute;
     z-index: 15;
-    left: 15%;
+    left: 10vw;
     border-radius: 10px;
   }
 
   #Categorie2, #Categorie4, #Categorie6{
-    width:500px;
-    height: 300px;
+    width: 38vw;
+    height: 10vh;
     position: absolute;
     z-index: 15;
-    left: 52%;
+    right: 10vw;
     border-radius: 10px;
   }
 
@@ -976,8 +976,13 @@
   	transition: 0.25s ease-in-out;
   }
 
-   #Categorie1 a, #Categorie2 a, #Categorie3 a, #Categorie4 a, #Categorie5 a, #Categorie6 a{
+  #Categorie1 a, #Categorie2 a, #Categorie3 a, #Categorie4 a, #Categorie5 a, #Categorie6 a{
   	transition: 0.25s ease-in-out;
+  }
+
+  #Categorie1, #Categorie2, #Categorie3, #Categorie4, #Categorie5, #Categorie6{
+    display: block;
+    padding: 35px;
   }
 
 
