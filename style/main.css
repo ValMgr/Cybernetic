@@ -8,7 +8,9 @@
       background-color: rgb(255, 255, 255);
       width: 100%;
       overflow-x: hidden !important;
+      scroll-behavior: smooth;
   }
+
 
  
 
@@ -261,7 +263,10 @@
   background-color: rgba(23, 70, 145, 0.10);
   position: absolute;
   left: 65%;
+}
 
+#LastActu2 h3.longtitle, #LastActu3 h3.longtitle{
+  font-size: 1.5em;
 }
 
 .More{
@@ -881,6 +886,144 @@
      font-size: 1.2;
    }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*EN IMAGE*/
+
+  #MailleCategories1{
+    grid-column: 1 / 13;
+    grid-row: 3 / 12;
+    background-image: url('Assets/Maille2.png');
+    background-repeat: no-repeat;
+    background-size: auto 85%;
+    opacity: 0.3;
+    transform: rotate(-5deg) scaleX(1) translate(35px, -65px);
+    position: relative;
+    z-index: 10;
+  }
+
+  #MailleCategories2{
+    grid-column: 1 / 13;
+    grid-row: 14 / 22;
+    background-image: url('Assets/Maille2.png');
+    background-repeat: no-repeat;
+    background-size: auto 105%;
+    opacity: 0.3;
+    transform: translate(-250px 0px);
+    position: relative;
+    z-index: 10;
+    float: left;
+    transform: rotate(165deg) translateX(45px);
+  }
+
+   #Categorie1, #Categorie3, #Categorie5{
+    width: 500px;
+    height: 300px;
+    border-radius: 3px;
+    position: absolute;
+    z-index: 15;
+    left: 15%;
+    border-radius: 10px;
+  }
+
+  #Categorie2, #Categorie4, #Categorie6{
+    width:500px;
+    height: 300px;
+    position: absolute;
+    z-index: 15;
+    left: 52%;
+    border-radius: 10px;
+  }
+
+  #Categorie1 a:hover, #Categorie2 a:hover, #Categorie3 a:hover, #Categorie4 a:hover, #Categorie5 a:hover, #Categorie6 a:hover{
+  	opacity: 0.8;
+  	transition: 0.25s ease-in-out;
+  }
+
+   #Categorie1 a, #Categorie2 a, #Categorie3 a, #Categorie4 a, #Categorie5 a, #Categorie6 a{
+  	transition: 0.25s ease-in-out;
+  }
+
+
+  /*--> Liste 1*/
+  .ListCategories1{
+    grid-column: 2 / 12;
+    grid-row: 8;
+    display: block;
+    z-index: 15;
+  }
+
+/*  .ListCategories1 h3{
+    color: #174691;
+    font-size: 1.1em;
+    font-family: 'Roboto';
+  }*/
+
+
+  /*--> Liste 2*/
+
+    .ListCategories2{
+     grid-column: 2 / 12;
+     grid-row: 11;
+     display: block;
+   }
+
+/*   .ListCategories2 h3{
+     color: #174691;
+     font-size: 1.1em;
+     font-family: 'Roboto';
+   }*/
+
+
+  /*--> Liste 3*/
+
+    .ListCategories3{
+     grid-column: 2 / 12;
+     grid-row: 14;
+     display: block;
+   }
+
+/*   .ListCategories3 h3{
+     color: #174691;
+     font-size: 1.1em;
+     font-family: 'Roboto';
+   }*/
 
 
 

@@ -30,10 +30,10 @@
               
 
                 <div class="navbar">
-                    <a href="Actuality.php">ACTUALITES</a>
+                    <a href="Actualites.php">ACTUALITES</a>
                     <a id="select" href="projet.php">PROJET</a>
                     <a href="Redirection.php">TEMOIGNAGE</a>
-                    <a href="Redirection.php">EN IMAGE</a>
+                    <a href="EnImage.php">EN IMAGE</a>
                     <a href="Redirection.php">RESSOURCES</a>
                     <a href="Redirection.php">CONTACT</a>
                     <a href="index.php"><i class="fas fa-home"></i></a>
