@@ -27,7 +27,7 @@
         <div class="wrapper">
 
 
-                <?php echo $_SESSION['Langue']; ?>
+              
 
                 <div class="navbar">
                     <a href="Actuality.php">ACTUALITES</a>
