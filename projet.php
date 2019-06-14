@@ -32,10 +32,9 @@
                 <div class="navbar">
                     <a href="Actualites.php">ACTUALITES</a>
                     <a id="select" href="projet.php">PROJET</a>
-                    <a href="Redirection.php">TEMOIGNAGE</a>
+                    <a href="Temoignage.php">TEMOIGNAGE</a>
                     <a href="EnImage.php">EN IMAGE</a>
                     <a href="Redirection.php">RESSOURCES</a>
-                    <a href="Redirection.php">CONTACT</a>
                     <a href="index.php"><i class="fas fa-home"></i></a>
                     <a href="#"><i class="fas fa-search"></i></a>
                     <div id="LangDropdown"><img src="style/Assets/Icon/france.svg">
@@ -173,7 +172,7 @@
                 <div class="HexagonGroupProject9">
                     <div id="hexagonProject9"></div>
                     <div id="hexagonProject9-1"></div>
-                    <img class="hexagonProjectPartenaire" src="style/Assets/Logo-GN.svg">
+                    <img class="hexagonProjectPartenaire" src="style/Assets/Logo-Ntech.jpg">
                 </div>
 
                 <div class="HexagonGroupProject10">
