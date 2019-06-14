@@ -27,9 +27,7 @@
 <body>
 <body style="overflow: hidden;">
 
-<?php
 
-    if($_SESSION['Langue'] == "FRA01"){ ?>
 
     <div class="wrapper">
 
@@ -71,7 +69,10 @@
                     </div>
                 </div>
 
-                <div id="MailleHome1"></div>
+                <!-- <div id="MailleHome1"></div> -->
+                <div id="particles-js" class="SAH" style="top: 10%;"></div>
+            
+
 
                 <div class="About">
 
@@ -131,11 +132,11 @@
                 <div class="ActuMore"><a href="Actualites.php" class="More">EN VOIR PLUS</a></div>
 
 
-                <div id="MailleHome2"></div>
+                <!-- <div id="MailleHome2"></div> -->
 
                 <div class="Partner"> <h2>NOS PARTENAIRES</h2> </div>
 
-                <div id="MailleHome3"></div>
+                <!-- <div id="MailleHome3"></div> -->
 
                 <div class="HexagonGroupHome2">
                     <img class="hexagonHome3" src="style/Assets/Logo-NTech.jpg" style="padding: 20px;">
@@ -163,6 +164,8 @@
 
     </div> 
 
+ 
+
 </body>
 
 <script>
@@ -177,5 +180,7 @@
 </script>
 
 <script src="js/countdown.js"></script>
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
 
 </html>
