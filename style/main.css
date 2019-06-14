@@ -158,6 +158,10 @@
     opacity: 0.6;
   }
 
+  #LangDropdown-content a:hover{    
+    text-decoration: none;
+  }
+
   #select{
     color: #03AFA8;
     border-bottom: solid;
@@ -985,7 +989,6 @@
     padding: 35px;
   }
 
-
   /*--> Liste 1*/
   .ListCategories1{
     grid-column: 2 / 12;
@@ -994,13 +997,6 @@
     z-index: 15;
   }
 
-/*  .ListCategories1 h3{
-    color: #174691;
-    font-size: 1.1em;
-    font-family: 'Roboto';
-  }*/
-
-
   /*--> Liste 2*/
 
     .ListCategories2{
@@ -1008,12 +1004,6 @@
      grid-row: 11;
      display: block;
    }
-
-/*   .ListCategories2 h3{
-     color: #174691;
-     font-size: 1.1em;
-     font-family: 'Roboto';
-   }*/
 
 
   /*--> Liste 3*/
@@ -1024,11 +1014,614 @@
      display: block;
    }
 
-/*   .ListCategories3 h3{
-     color: #174691;
-     font-size: 1.1em;
-     font-family: 'Roboto';
-   }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CONNEXION*/
+
+  .HexagonGroupConnect{
+    grid-column: 5 / 8;
+    grid-row: 3;
+    transform: translate(10px, -75px);
+  }
+  .HexagonGroupConnect{
+    color: #174691;
+    font-family: 'Roboto';
+    font-size: 1.8vw;
+    position: relative;
+    font-weight: medium;
+    opacity: 0.9;
+  }
+
+  #connection{
+    grid-column: 5 / 9;
+    grid-row: 4 / 6;
+    background-color: #EFEFEF;
+    opacity: 0.6;
+    border: 2px solid #03AFA8;
+    border-radius: 10px;
+    z-index: 1;
+    transform: translateY(-75px);
+  }
+
+  input[type=text], input[type=password]{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 20vW;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #03AFA8;
+    padding: 10px;
+    color: #423e68;
+    font-size: 16px;
+  }
+
+  input[type=password]{
+    margin-top: 30px;
+  }
+
+  input[type=submit]{
+    display: block;
+    margin: auto;
+    margin-top: 45px;
+    margin-bottom: 35px;
+    width: 11vw;
+    height: 40px;
+    background-color: #03AFA8;
+    border: none;
+    color: #FEFEFE;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.1em;
+  }
+
+  input[type=submit]:hover{
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ADMINISTRATEUR*/
+
+  #MailleAdmin{
+    grid-column: 3 / 10;
+    grid-row: 3;
+    background-image: url('Assets/Maille.png');
+    background-repeat: no-repeat;
+    background-size: auto 15vw;
+    opacity: 0.65;
+    transform: rotate(-5deg) scaleX(-1) translate(2.5vw, -85px);
+    position: relative;
+  }
+
+  .HexagonGroupAdmin{
+    grid-column: 5 / 9;
+    grid-row: 3;
+    transform: translate(0px, -75px);
+  }
+  .HexagonGroupAdmin{
+    color: #174691;
+    font-family: 'Roboto';
+    font-size: 1.8vw;
+    position: relative;
+    font-weight: medium;
+    opacity: 0.9;
+  }
+
+  #AdminbtnCreate{
+    transform: translate(8.25vw, 450px);
+    position: absolute;
+    font-size: 1.3vw;
+    width: 10vw;
+    padding: 0.5vw;
+    min-height: 1.5vw;
+    background-color: #03AFA8;
+    color: white;
+    font-family: 'Roboto';
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.1s ease-in-out;
+  }
+
+  #AdminbtnCreate:hover{
+    background-color: #008F88;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+  }
+
+  #AdminList{
+    grid-column: 2 / 12;
+    grid-row: 5;
+    z-index: 35;
+  }
+
+  h3.listadmin{
+    grid-column: 2 / 12;
+    grid-row: 5;
+    font-size: 2vw;
+    color: #174691;
+    font-family: 'Roboto';
+    opacity: 0.9;
+  }
+
+  #AdminActu{
+    display: inline-block;
+    margin-top: 100px;
+  }
+
+  #AdminActu img{
+    float: left;
+    border-radius: 3px;
+  }
+
+  #AdminActu h3{
+    color: #03AFA8;
+    font-weight: medium;
+    font-size: 1.75vw;
+    font-family: 'Roboto';
+    margin-bottom:20px;
+  }
+
+  #AdminActu p{
+    color: #BEBEBE;
+    font-weight: medium;
+    font-size: 1.25vw;
+    font-family: 'Roboto';
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+
+  #AdminActu a{
+    color: #03AFA8;
+    text-decoration: unset;
+    font-family: 'Roboto';
+    font-size: 1.2;
+    transition: 0.1s ease-in-out;
+  }
+
+  #AdminActu a:hover{
+    color: #008F88;
+    transition: 0.1s ease-in-out;
+  }
+
+  #Controles{
+    grid-column: 2 / 11;
+    transform: translate(0, 15px);
+  }
+
+  #Controles a.AdminbtnModif{
+    transform: translate(-32.15vw, 40px);
+    padding: 0.5vw 1vw;
+    background-color: rgba( 23, 70, 145, 0.9);
+    font-family: 'Roboto';
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.1s ease-in-out;
+  }
+
+  #Controles a.AdminbtnModif:hover{
+    background-color: rgba( 23, 70, 145, 0.8);
+  }
+
+  #Controles a.AdminbtnSupp{
+    transform: translate(-22vw, 40px);
+    padding: 0.5vw 0.5vw;
+    background-color: rgba( 200, 35, 35, 0.9);
+    font-family: 'Roboto';
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.1s ease-in-out;
+  }
+
+  #Controles a.AdminbtnSupp:hover{
+    background-color: rgba( 200, 35, 35, 0.75);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*EDITION ARTICLE*/
+
+  #Return{
+    position: absolute;
+    transform: translate(10px, 12.5px);
+    font-size: 1.2vw;
+    width: 7vw;
+    padding: 0.4vw;
+    min-height: 1.5vw;
+    background-color: #174691;
+    color: white;
+    font-family: 'Roboto';
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.1s ease-in-out;
+  }
+
+  #Return:hover{
+    opacity: 0.8;
+    transition: 0.1s ease-in-out;
+  }
+
+  #Edition{
+    grid-column: 3 / 11;
+    grid-row: 4;
+  }
+
+  #Edition input[type=text]{
+    width: 65.5vw;
+    color: #174691;
+    font-weight: bold;
+  }
+
+  #Edition textarea{
+    border-radius: 5px;
+    margin-top: 50px;
+  }
+
+  #Edition textarea::placeholder, #Edition input[type=text]::placeholder{
+    color: #aaa;
+  }
+
+  #Edition input[type=submit]{
+    margin-top: 75px;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+  }
+
+  #Edition input[type=submit]:hover{
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+  }
+
+  #Edition input[type=date]{
+    margin-top: 50px;
+    width: 65.5vw;
+    height: 35px; 
+    color: #174691;
+    font-weight: bold;
+    border: 1px solid #03AFA8;
+    border-radius: 5px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TEMOIGNAGE*/
+
+  #MailleTemoignage1{
+    grid-column: 1 / 13;
+    grid-row: 3 / 10;
+    background-image: url('Assets/Maille2.png');
+    background-repeat: no-repeat;
+    background-size: auto 65%;
+    opacity: 0.3;
+    transform: scaleX(1) translate(0px, -65px);
+    position: relative;
+    z-index: 10;
+  }
+
+  .HexagonGroupTemoignage1{
+    grid-row: 6;
+  }
+
+
+  #connexion{
+    grid-column: 4 / 10;
+    grid-row: 7;
+    z-index: 25;
+  }
+
+  #Temoignage input[type=text], input[type=mail], input[type=tel]{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 3px solid rgba(3, 175, 168, 0.6);
+    padding: 10px;
+    padding-left: 50px;
+    color: #423e68;
+    font-size: 18px;
+  }
+
+  #Temoignage textarea{
+    margin-top: 100px;
+    padding-top: 50px;
+  }
+
+  #Temoignage label{
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    color: #423e68;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto';
+  }
+
+  #Temoignage input[type=file], textarea{
+    display: block;
+    margin: auto;
+    min-width: 100%;
+    min-height: 150px;
+    max-width: 100%;
+    background-color: #EFEFEF;
+    border-radius: 0px;
+    border: none;
+    padding: 10px;
+    color: #423e68;
+    font-size: 18px;
+    font-family: 'Roboto';
+  }
+
+  #Temoignage input[type=file]{
+    min-height: 50px;
+  }
+
+  #Temoignage input[type=submit]{
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    width: 14vw;
+    height: 6vh;
+    background-color: white;
+    border: 2px solid #174691;
+    color: #174691;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 1.1em;
+    transition: 0.3s ease-in-out;
+  }
+
+  #Temoignage input[type=submit]:hover{
+    opacity: 0.65;
+    transition: 0.2s ease-in-out;
+  }
+
+  #Icons {
+    grid-column: 4;
+    grid-row: 7;
+    z-index: 24;
+    transform: translate(10px, 45px);
+  }
+
+  #Icons img{
+    display: block;
+    margin-bottom: 60px;
+  }
+
+  img.iconmsg{
+    grid-column: 4 / 10;
+    grid-row: 7;
+    padding-right: 42vw;
+    padding-top: 9px;
+    margin-bottom: 100px;
+    background-color: #EFEFEF;
+    transform: translate(10px, 460px);
+    z-index: 26;
+  }
+
+/*    img.iconupload{
+    grid-column: 4 / 10;
+    grid-row: 7;
+    padding-right: 45vw;
+    margin-bottom: 100px;
+    background-color: #EFEFEF;
+    transform: translate(10px, 720px);
+    z-index: 26;
+  }*/
+
+  #Infos{
+    grid-column: 4 / 10;
+    grid-row: 9;
+    text-align: center;
+  }
+
+  #Infos h3{
+    color: #BEBEBE;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    transform: translateY(-35px);
+  }
+
+  #Infos a{
+    text-decoration: none;
+    color: #BEBEBE;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    transform: translateY(-50px);
+    margin-top: 25px;
+    transition: 0.2s ease-in-out;
+    z-index: 30;
+  }
+
+  #Infos a:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
 
 
 

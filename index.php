@@ -54,10 +54,9 @@
                 <div class="navbar">
                     <a href="Actualites.php">ACTUALITES</a>
                     <a href="projet.php">PROJET</a>
-                    <a href="Redirection.php">TEMOIGNAGE</a>
+                    <a href="Temoignage.php">TEMOIGNAGE</a>
                     <a href="EnImage.php">EN IMAGE</a>
                     <a href="Redirection.php">RESSOURCES</a>
-                    <a href="Redirection.php">CONTACT</a>
                     <a href="index.php"><i class="fas fa-home"></i></a>
                     <a href="#"><i class="fas fa-search"></i></a>
                     <div id="LangDropdown"><img src="style/Assets/Icon/france.svg">
@@ -108,7 +107,7 @@
                         <h3> Le corps du délit </h3>
                         <p> De la séduction à l’humiliation, le cyberharcèlement en question, les instrumentalisations plurielles du corps dans le cadre de cyberviolences.</p>
                         <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
-                        <p class="ActuDate"><i class="far fa-clock"> 03.06.19</i>
+                        <p class="ActuDate"><i class="far fa-clock"></i> 03.06.19</p>
                     </div>
 
                     <div id="LastActu2">
@@ -116,7 +115,7 @@
                         <h3 class="longtitle"> Dark net & cybercriminalité</h3>
                         <p>Le hacking au secours des organisations dans le cadre du programme de recherche CyberNeTic.</p>
                         <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
-                        <p class="ActuDate"><i class="far fa-clock"> 03.06.19</i>
+                        <p class="ActuDate"><i class="far fa-clock"></i> 03.06.19</p>
                     </div>
 
                     <div id="LastActu3">
@@ -124,7 +123,7 @@
                         <h3 class="longtitle"> Stratégies amoureuses & cyberharcèlement </h3>
                         <p>Quand le discours manipulateur devient un crime de langue sur les réseaux sociaux. <br><br></p>
                         <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
-                        <p class="ActuDate"><i class="far fa-clock"> 03.06.19</i>
+                        <p class="ActuDate"><i class="far fa-clock"></i> 03.06.19</p>
                     </div>
                 </div>
 
@@ -138,7 +137,7 @@
                 <div id="MailleHome3"></div>
 
                 <div class="HexagonGroupHome2">
-                    <img class="hexagonHome3" src="style/Assets/Logo-GN.svg" style="padding: 20px;">
+                    <img class="hexagonHome3" src="style/Assets/Logo-NTech.jpg" style="padding: 20px;">
                     <div class="hexagonHome4"></div>
                     <div id="hexagonHome5"></div>
                 </div>
@@ -153,6 +152,10 @@
                     <img class="hexagonHome3" src="style/Assets/Logo-UB.jpg" style="padding: 0px;">
                     <div class="hexagonHome4"></div>
                     <div id="hexagonHome7"></div>
+                </div>
+
+                <div id="FooterIndex">
+
                 </div>
 
 

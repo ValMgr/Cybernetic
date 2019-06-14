@@ -28,10 +28,9 @@
                 <div class="navbar">
                     <a id="select" href="Actualites.php">ACTUALITES</a>
                     <a href="projet.php">PROJET</a>
-                    <a href="Redirection.php">TEMOIGNAGE</a>
+                    <a href="Temoignage.php">TEMOIGNAGE</a>
                     <a href="EnImage.php">EN IMAGE</a>
                     <a href="Redirection.php">RESSOURCES</a>
-                    <a href="Redirection.php">CONTACT</a>
                     <a href="index.php"><i class="fas fa-home"></i></a>
                     <a href="#"><i class="fas fa-search"></i></a>
                     <div id="LangDropdown"><img src="style/Assets/Icon/france.svg">
@@ -56,7 +55,7 @@
                         <h3> Le corps du délit </h3>
                         <p> De la séduction à l’humiliation, le cyberharcèlement en question, les instrumentalisations plurielles du corps dans le cadre de cyberviolences.</p>
                         <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
-                        <p class="ActuDate"><i class="far fa-clock"> 11.03.19</i>
+                        <p class="ActuDate"><i class="far fa-clock"></i> 11.03.19</p>
                     </div>
 
                     <div id="Actu2">
@@ -64,7 +63,7 @@
                         <h3 class="longtitle"> Dark net & cybercriminalité</h3>
                         <p>Le hacking au secours des organisations dans le cadre du programme de recherche CyberNeTic.</p>
                         <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
-                        <p class="ActuDate"><i class="far fa-clock"> 29.03.19</i>
+                        <p class="ActuDate"><i class="far fa-clock"></i> 29.03.19</p>
                     </div>
 
                     <div id="Actu3">
@@ -72,7 +71,7 @@
                         <h3 class="longtitle"> Stratégies amoureuses & cyberharcèlement </h3>
                         <p>Quand le discours manipulateur devient un crime de langue sur les réseaux sociaux. <br><br> </p>
                         <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
-                        <p class="ActuDate"><i class="far fa-clock"> 19.04.19</i>
+                        <p class="ActuDate"><i class="far fa-clock"></i> 19.04.19</p>
                     </div>
                 </div>
                 <div class="ListActus2">
@@ -81,7 +80,7 @@
                         <h3> A Venir </h3>
                         <p>Nos prochaines conférences et actualités sur le domaine du CyberHarcèlement seront bientôt disponibles. Restez à l'écoute. <br><br></p>
                         <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
-                        <p class="ActuDate"><i class="far fa-clock"> 03.06.19</i>
+                        <p class="ActuDate"><i class="far fa-clock"></i> 03.06.19</p>
                     </div>
 
                     <div id="Actu5">
@@ -89,7 +88,7 @@
                         <h3> A Venir </h3>
                         <p>Nos prochaines conférences et actualités sur le domaine du CyberHarcèlement seront bientôt disponibles. Restez à l'écoute. <br><br></p>
                         <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
-                        <p class="ActuDate"><i class="far fa-clock"> 03.06.19</i>
+                        <p class="ActuDate"><i class="far fa-clock"></i> 03.06.19</p>
                     </div>
 
                     <div id="Actu6">
@@ -97,7 +96,7 @@
                         <h3> A Venir </h3>
                         <p>Nos prochaines conférences et actualités sur le domaine du CyberHarcèlement seront bientôt disponibles. Restez à l'écoute. <br><br></p>
                         <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
-                        <p class="ActuDate"><i class="far fa-clock"> 03.06.19</i>
+                        <p class="ActuDate"><i class="far fa-clock"></i> 03.06.19</p>
                     </div>
                 </div>
 
