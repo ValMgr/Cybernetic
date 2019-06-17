@@ -60,7 +60,7 @@
                         <input type="tel" name="Phone" placeholder=" Téléphone">
                         <input type="text" name="Topic" placeholder=" Sujet du témoignage">
                         <textarea name="MainSubject"></textarea>
-                        <label for="Files">Choisissez 1 ou plusieurs fichiers "Preuve" :</label>
+                        <label for="Files">Veuillez sélectionner les captures d'écrans & images appuyant vos propos...</label>
                         <input type="file" name="Files" accept="image/png, image/jpeg, image/jpg" multiple="multiple">
                         <input type="submit" name="Envoi" value="VALIDER">
                     </form>

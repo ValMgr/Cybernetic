@@ -139,30 +139,32 @@
                 <!-- <div id="MailleHome3"></div> -->
 
                 <div class="HexagonGroupHome2">
-                    <img class="hexagonHome3" src="style/Assets/Logo-NTech.jpg" style="padding: 20px;">
+                    <img class="hexagonHome3" src="style/Assets/Logo-NTech.jpg" style="padding: 20px 0px;">
                     <div class="hexagonHome4"></div>
                     <div id="hexagonHome5"></div>
                 </div>
 
                 <div class="HexagonGroupHome3">
-                    <img class="hexagonHome3" src="style/Assets/Logo_Orange.jpg" style="padding: 40px;">
+                    <img class="hexagonHome3" src="style/Assets/Logo_Orange.jpg" style="padding: 50px 35px;">
                     <div class="hexagonHome4"></div>
                     <div id="hexagonHome6"></div>
                 </div>
 
                 <div class="HexagonGroupHome4">
-                    <img class="hexagonHome3" src="style/Assets/Logo-UB.jpg" style="padding: 0px;">
+                    <img class="hexagonHome3" src="style/Assets/Logo-UB.jpg" style="padding: 15px 0px;">
                     <div class="hexagonHome4"></div>
                     <div id="hexagonHome7"></div>
                 </div>
 
-                <div id="FooterIndex">
 
-                </div>
+                <!-- <div id="FooterIndex">
+
+                </div> -->
 
 
+    </div>
 
-    </div> 
+    <?php } ?> 
 
  
 
