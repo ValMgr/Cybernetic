@@ -41,8 +41,7 @@
   height: 221px;
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  background-color: white;/*
-  padding: 20px;*/
+  background-color: white;
   position: absolute;
   z-index: 4;
   transform: translate(2px, 2px);
