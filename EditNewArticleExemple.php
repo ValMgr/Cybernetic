@@ -61,6 +61,7 @@
                     <input type="text" name="soustitre" placeholder="Sous-Titre">
                     <textarea class="paragraphe" placeholder="Paragraphe..."></textarea>
                     <input type="text" name="lieu" placeholder="10 Esplanade des Antilles - 33607 - PESSAC">
+                    <input type="text" name="listbox" placeholder="Français">
                     <input type="date" name="date">
                     <input type="submit" name="Envoie" value="VALIDER">
                 </form>

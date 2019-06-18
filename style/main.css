@@ -17,6 +17,7 @@
     height: 400vh;
     position: absolute;
     z-index: -1;
+    opacity: 0.35;
   }
  
 
@@ -91,11 +92,13 @@
 
   .About a{
     margin-top: 20px;
+    transition: 0.2s ease-in-out;
   }
 
   .About a:hover{
     color: rgb(4, 206, 199);
     border: solid 2px rgb(4, 206, 199);
+    transition: 0.2s ease-in-out;
 
   }
 
@@ -202,7 +205,7 @@
   }
   
   .Actuality{
-    grid-column: 3 / 5;
+    grid-column: 3 / 4;
     grid-row: 7;
   }
 
@@ -284,16 +287,24 @@
   font-size: 1.4em;
   font-family: 'Roboto';
   border: solid 2px #03AFA8;
+  background-color: white;
   border-radius: 5px;
   position: absolute;
   text-decoration: none;
   padding: 10px 30px 10px 30px;
+  transition: 0.2s ease-in-out;
+}
+
+.More:hover{
+  color: rgb(4, 206, 199);
+  transition: 0.2s ease-in-out;
 }
 
   .ActuMore{
     grid-row: 12;
     grid-column: 5;
     text-align: center;
+    transition: 0.2s ease-in-out;
   }
 
   #MailleHome2{
@@ -1593,6 +1604,10 @@
     cursor: pointer;
     opacity: 0.8;
     transition: 0.2s ease-in-out;
+  }
+
+  #Temoignage ::placeholder{
+    opacity: 0.4;
   }
 
 

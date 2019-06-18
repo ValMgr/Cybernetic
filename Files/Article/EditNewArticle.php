@@ -32,7 +32,7 @@
                 <div class="navbar">
                     <a href="Actualites.php">ACTUALITES</a>
                     <a href="projet.php">PROJET</a>
-                    <a id="select" href="#">TEMOIGNAGE</a>
+                    <a href="Temoignage.php">TEMOIGNAGE</a>
                     <a href="EnImage.php">EN IMAGE</a>
                     <a href="Redirection.php">RESSOURCES</a>
                     <a href="index.php"><i class="fas fa-home"></i></a>
@@ -45,43 +45,28 @@
                     </div>
                 </div>
 
-                <div id="MailleTemoignage1"></div>
+                <div id="MailleAdmin"></div>
 
-                <div class="HexagonGroupProject1 HexagonGroupTemoignage1">
+                <div class="HexagonGroupAdmin">
                     <div id="hexagonProject1"></div>
                     <div id="hexagonProject1-1"></div>
-                    <h2 id="hexagonProject1-title">Témoignage</h2>
+                    <h2 id="hexagonProject1-title">Edition Nouvel Article</h2>
                 </div>
 
-                <div id="connexion">
-                    <form id=Temoignage>
-                        <input type="text" name="NomPrenom" placeholder=" Nom & Prénom">
-                        <input type="mail" name="EMail" placeholder=" Email">
-                        <input type="tel" name="Phone" placeholder=" Téléphone">
-                        <input type="text" name="Topic" placeholder=" Sujet du témoignage">
-                        <textarea name="MainSubject"></textarea>
-                        <label for="Files">Veuillez sélectionner les captures d'écrans & images appuyant vos propos...</label>
-                        <input type="file" name="Files" accept="image/png, image/jpeg, image/jpg" multiple="multiple">
-                        <input type="submit" name="Envoi" value="VALIDER">
-                    </form>
-                </div>
+                <a id="Return" href="Admin.php">Retour</a>
 
-                <id id="Icons">
-                    <img src="style/Assets/iconid.png"></img>
-                    <img src="style/Assets/iconmail.png"></img>
-                    <img src="style/Assets/icontel.png"></img>
-                    <img src="style/Assets/icontopic.png"></img>
-                </id>
-                <img class="iconmsg" src="style/Assets/iconmessage.png"></img>
-                <!-- <img class="iconupload" src="style/Assets/iconupload.png"></img> -->
-
-                <div id="Infos">
-                    <h3>POUR PLUS DE QUESTIONS OU D'INFORMATIONS</h3>
-                    <a href="#">adressemail@gmail.com</a>
-                </div>
-
+                <form id="Edition">
+                    <input type="text" name="titre" placeholder="Titre">
+                    <textarea class="chapo" placeholder="Châpo..."></textarea>
+                    <input type="text" name="soustitre" placeholder="Sous-Titre">
+                    <textarea class="paragraphe" placeholder="Paragraphe..."></textarea>
+                    <input type="text" name="lieu" placeholder="Lieu...">
+                    <input type="date" name="date">
+                    <input type="submit" name="Envoie" value="VALIDER">
+                </form>
 
         </div>
+        <br><br><br>
 
     </body>
 </html>
