@@ -14,8 +14,8 @@
                                 <form action="Files/Language/LanguageManager.php" method="post" id="ENG01"><input type="hidden" name="Langue" value="ENG01"></form>
                                 <form action="Files/Language/LanguageManager.php" method="post" id="ESP01"><input type="hidden" name="Langue" value="ESP01"></form>
 
-                                <a href="#" onclick="getElementById('ESP01').submit();"><img src="style/Assets/Icon/spain.svg" class="LangDropdown-content"></a>
-                                <a href="#" onclick="getElementById('ENG01').submit();"><img src="style/Assets/Icon/united-kingdom.svg" class="LangDropdown-content"></a>
+                                <a class="Lang" href="#" onclick="getElementById('ESP01').submit();"><img src="style/Assets/Icon/spain.svg" class="LangDropdown-content"></a>
+                                <a class="Lang" href="#" onclick="getElementById('ENG01').submit();"><img src="style/Assets/Icon/united-kingdom.svg" class="LangDropdown-content"></a>
                             </div>
                         </div>
                     </div>

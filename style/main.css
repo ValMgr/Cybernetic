@@ -17,7 +17,7 @@
     height: 400vh;
     position: absolute;
     z-index: -1;
-    opacity: 0.35;
+    /*opacity: 0.35;*/
   }
  
 
@@ -27,6 +27,7 @@
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
+
 
 
 /* HOME PAGE */
@@ -281,6 +282,12 @@
 #LastActu2 h3.longtitle, #LastActu3 h3.longtitle{
   font-size: 1.5em;
 }
+
+.Lang:hover{
+  text-decoration: none;
+  border-bottom: none !important;
+}
+
 
 .More{
   color: #03AFA8;
