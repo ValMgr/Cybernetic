@@ -16,8 +16,7 @@
     width: 100vw;
     height: 400vh;
     position: absolute;
-    z-index: -1;
-    /*opacity: 0.35;*/
+    z-index: 1;
   }
  
 
@@ -87,8 +86,7 @@
     font-size: 1.2em;
     font-family: 'Roboto';
     color: rgb(0, 0, 0);
-    text-align: justify;
-    
+    text-align: justify
   }
 
   .About a{
@@ -110,6 +108,7 @@
     height: 4px;
     background-color: #006579;
     transform: translate(15px, 20px);
+    z-index: 2;
   }
   
 
@@ -181,6 +180,7 @@
     grid-column: 3 / 4;
     grid-row: 4; 
     transform: translate(0px, -50px);
+    z-index: 2;
   }
 
   .HexagonGroupHome1 h3{
@@ -208,15 +208,14 @@
   .Actuality{
     grid-column: 3 / 4;
     grid-row: 7;
+    z-index: 2;
   }
 
   .Actuality h2{
     font-family: 'Roboto';
-    font-size: 2em;/*
-     text-decoration: underline; */
+    font-size: 2em;
     border-bottom: solid 2px #174691;
     color: #174691;
-    /*transform: translateX(100px);*/
   }
 
 
@@ -261,6 +260,14 @@
   height: 400px;
   background-color: rgba(23, 70, 145, 0.10);
   position: absolute;
+  z-index: 3;
+}
+ #LastActu1-1{
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  position: absolute;
+  z-index: 2;
 }
 
 #LastActu2{
@@ -269,6 +276,16 @@
   background-color: rgba(23, 70, 145, 0.10);
   position: absolute;
   left: 40%;
+  z-index: 3;
+}
+
+#LastActu2-2{
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  position: absolute;
+  left: 40%;
+  z-index: 2;
 }
 
 #LastActu3{
@@ -277,6 +294,16 @@
   background-color: rgba(23, 70, 145, 0.10);
   position: absolute;
   left: 65%;
+  z-index: 3;
+}
+
+#LastActu3-3{
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  position: absolute;
+  left: 65%;
+  z-index: 2;
 }
 
 #LastActu2 h3.longtitle, #LastActu3 h3.longtitle{
@@ -300,6 +327,7 @@
   text-decoration: none;
   padding: 10px 30px 10px 30px;
   transition: 0.2s ease-in-out;
+  z-index: 2;
 }
 
 .More:hover{
@@ -329,6 +357,7 @@
   .Partner{
     grid-row: 14;
     grid-column: 9 / 11;
+    z-index: 2;
   }
 
   .Partner h2{
@@ -355,6 +384,7 @@
     grid-column: 3 / 5;
     position: relative;
     transform: translateY(-75px);
+    z-index: 2;
   }
 
   .HexagonGroupHome3{
@@ -362,6 +392,7 @@
     grid-column: 6 / 7;
     position: relative;
     transform: translate(-75px, -75px);
+    z-index: 2;
   }
 
   .HexagonGroupHome4{
@@ -369,6 +400,7 @@
     grid-column: 9 / 11;
     position: relative;
     transform: translateY(-25px);
+    z-index: 2;
   }
 
 

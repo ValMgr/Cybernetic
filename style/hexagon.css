@@ -11,7 +11,7 @@
   opacity: 0.95;
   
   position: absolute;
-  z-index: 40;
+  z-index: 2;
   transform: translate(-15px, 30px);
 }
 
@@ -26,12 +26,12 @@
     opacity: 0.65;
 
   position: relative;
-  z-index: 40;
+  z-index: 2;
 }
 
 #hexagonHome1-title{
   position: relative;
-  z-index: 5;
+  z-index: 2;
   transform: translate(30px, -155px);
 }
 
