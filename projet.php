@@ -172,7 +172,7 @@
                 <div class="HexagonGroupProject9">
                     <div id="hexagonProject9"></div>
                     <div id="hexagonProject9-1"></div>
-                    <img class="hexagonProjectPartenaire" src="style/Assets/Logo-Ntech.jpg">
+                    <img class="hexagonProjectPartenaire" src="style/Assets/Logo-NTech.jpg">
                 </div>
 
                 <div class="HexagonGroupProject10">
