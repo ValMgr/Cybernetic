@@ -1,4 +1,4 @@
-<!-- FOOTER - Lang = FRA -->
+<!-- FOOTER - Lang = FR -->
 
 
                     <!-- END FOOTER -->

@@ -38,7 +38,7 @@
 
                         $_SESSION['Connected'] = true;
                         $_SESSION['Email'] = $Rows[2];
-                        header('location: ../../index.php');
+                        header('location: ../../admin.php');
                         die;
                     }                    
                 }

@@ -4,7 +4,10 @@
 
                 <?php include 'NAVBAR.php'; ?>
 
-                <div id="MailleActus1"></div>
+                <!-- <div id="MailleActus1"></div> -->
+
+                <div id="particles-js" class="SAH" style="top: 10%;"></div>
+
 
                 <div class="HexagonGroupProject1">
                     <div id="hexagonProject1"></div>
@@ -20,6 +23,8 @@
                         <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
                         <p class="ActuDate"><i class="far fa-clock"></i> 11.03.19</p>
                     </div>
+                    <div id="Actu1-2"></div>
+
 
                     <div id="Actu2">
                         <img src="style/Assets/Actu2.jpg" style="width: 100%;">
@@ -28,6 +33,8 @@
                         <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
                         <p class="ActuDate"><i class="far fa-clock"></i> 29.03.19</p>
                     </div>
+                    <div id="Actu2-2"></div>
+
 
                     <div id="Actu3">
                         <img src="style/Assets/Actu3.jpg" style="width: 100%;">
@@ -36,7 +43,10 @@
                         <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
                         <p class="ActuDate"><i class="far fa-clock"></i> 19.04.19</p>
                     </div>
+                    <div id="Actu3-2"></div>
+
                 </div>
+
                 <div class="ListActus2">
                     <div id="Actu4">
                         <img src="style/Assets/Actu5.jpg" style="width: 100%;">
@@ -45,6 +55,8 @@
                         <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
                         <p class="ActuDate"><i class="far fa-clock"></i> 03.06.19</p>
                     </div>
+                    <div id="Actu4-2"></div>
+
 
                     <div id="Actu5">
                         <img src="style/Assets/Actu5.jpg" style="width: 100%;">
@@ -53,6 +65,8 @@
                         <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
                         <p class="ActuDate"><i class="far fa-clock"></i> 03.06.19</p>
                     </div>
+                    <div id="Actu5-2"></div>
+
 
                     <div id="Actu6">
                         <img src="style/Assets/Actu5.jpg" style="width: 100%;">
@@ -61,8 +75,10 @@
                         <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
                         <p class="ActuDate"><i class="far fa-clock"></i> 03.06.19</p>
                     </div>
+                    <div id="Actu6-2"></div>
+
                 </div>
 
-                <div id="MailleActus2"></div>
+                <!-- <div id="MailleActus2"></div> -->
 
         </div>

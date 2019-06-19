@@ -1,7 +1,6 @@
 <?php 
     include 'Files/Connect/db_connection.php';
     include 'Files/Connect/connection_check.php';
-    //include 'Files/Language/LanguageManager.php';
 
     if (!isset($_SESSION['Langue'])) {
     	$_SESSION['Langue'] = 'FRA01';

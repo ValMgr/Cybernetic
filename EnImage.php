@@ -87,4 +87,8 @@
         </div>
 
     </body>
+
+    <script src="js/countdown.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
 </html>
