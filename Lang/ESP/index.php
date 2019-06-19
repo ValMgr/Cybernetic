@@ -74,6 +74,7 @@
                             <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
                             <p class="ActuDate"><i class="far fa-clock"></i> 03.06.19</p>
                         </div>
+                        <div id="LastActu1-1"></div>
 
                         <div id="LastActu2">
                             <img src="style/Assets/Actu2.jpg" style="width: 100%;">
@@ -82,6 +83,7 @@
                             <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
                             <p class="ActuDate"><i class="far fa-clock"></i> 03.06.19</p>
                         </div>
+                        <div id="LastActu2-2"></div>
 
                         <div id="LastActu3">
                             <img src="style/Assets/Actu3.jpg" style="width: 100%;">
@@ -90,6 +92,7 @@
                             <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
                             <p class="ActuDate"><i class="far fa-clock"></i> 03.06.19</p>
                         </div>
+                        <div id="LastActu3-3"></div>
                     </div>
 
                     <div class="ActuMore"><a href="Actualites.php" class="More">EN VOIR PLUS</a></div>
