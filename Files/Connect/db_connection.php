@@ -5,13 +5,20 @@
 	    ini_set('display_startup_errors','on');
 	    error_reporting(E_ALL);
 
-	    ////////////////////////////////////////////////////////
 		// Connexion et choix de la base de données
-		$server = 'mysql:dbname=cybernetic;host=localhost';
-		$user = 'root';
+
+        // CONNEXION BDD OVH:
+		// $server = 'mysql:dbname=cybernetzxadmin; host=cybernetzxadmin.mysql.db';
+		// $user = 'cybernetzxadmin';
+  //       $password = 'MarJC3364Cybe';
+
+
+        // CONNEXION BDD LOCALHOST:
+        $server = 'mysql:dbname=cybernetic; host=localhost';
+        $user = 'root';
         $password = '';
         
-        
+
         try{
             $dbPdo = new PDO($server, $user, $password);
             //echo "<h3 style=\"color:green;\">db Connected</h3>";
