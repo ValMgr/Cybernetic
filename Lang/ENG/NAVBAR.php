@@ -1,5 +1,9 @@
 <!-- NAVBAR - Lang = ENG -->
 
+
+                    <?php include 'Files/Const/const.php'; ?>
+
+
                     <div class="navbar">
                         <a href="Actualites.php">ACTUALITY</a>
                         <a href="projet.php">PROJECT</a>

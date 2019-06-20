@@ -63,6 +63,7 @@
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   background-color: #BEBEBE;
+  opacity: 0.8;
 
   position: absolute;
   z-index: 2;
@@ -75,6 +76,7 @@
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   background-color: #EFEFEF;
+  opacity: 0.8;
 
   position: absolute;
   z-index: 2;
@@ -87,6 +89,7 @@
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   background-color: #BEBEBE;
+  opacity: 0.8;
 
   position: relative;
   z-index: 2;

@@ -3,7 +3,7 @@
     <div class="wrapper">
 
 
-            <div class="waiter" onclick="WaiterDisapear(this)">
+            <div class="waiter" onclick="WaiterDisapear(this);">
                 <div class="waiter-title">
                     <div class="glitch">
                         <h1>CyberNeTic</h1>
