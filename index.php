@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> 
 
 </head>
-<body style="overflow: hidden;" onkeypress = "WaiterDisapear();">
+<body style="overflow: hidden;" onkeypress = "WaiterDisapear(waiter[0]);">
 
 
     <?php
@@ -59,7 +59,8 @@
     var waiter = document.getElementsByClassName('waiter');
 
     function WaiterDisapear(x) {
-        x.classList.add("disapear");
+
+       x.classList.add("disapear");
         
         document.body.style.overflow = 'scroll';
     }
