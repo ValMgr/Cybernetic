@@ -1,4 +1,4 @@
-<!-- FOOTER - Lang = FR -->
+<!-- FOOTER - Lang = FR
 
     <div id="mainfooter">
         <a href="#"><i class="fab fa-facebook-f fa-3x"></i></a>
@@ -14,4 +14,4 @@
         <h5>Ⓒ Copyright Cybernetic</h5>        
     </div>
 
-<!-- END FOOTER -->
+END FOOTER -->
