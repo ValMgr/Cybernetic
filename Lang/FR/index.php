@@ -10,6 +10,9 @@
                         <h1>CyberNeTic</h1>
                         <h1>CyberNeTic</h1>
                     </div>
+
+                   
+
                 </div>
 
                 <p id="date"></p>

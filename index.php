@@ -58,13 +58,13 @@
 
     var waiter = document.getElementsByClassName('waiter');
 
+    setTimeout(function() { WaiterDisapear(waiter[0])}, 10000);
+    
     function WaiterDisapear(x) {
 
-       x.classList.add("disapear");
-        
+        x.classList.add("disapear");
         document.body.style.overflow = 'scroll';
     }
-
 
 
 </script>
