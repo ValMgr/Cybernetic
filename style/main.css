@@ -1172,7 +1172,7 @@
     transform: translateY(-75px);
   }
 
-  input[type=text], input[type=password]{
+  input[type=text], input[type=password], input[type=number], select{
     display: block;
     margin: auto;
     margin-top: 50px;
@@ -1448,10 +1448,24 @@
     grid-row: 4;
   }
 
-  #Edition input[type=text]{
+  #Edition input[type=text], input[type=number], select{
     width: 65.5vw;
     color: #174691;
     font-weight: bold;
+  }
+
+  #Edition input[type=number]{
+    margin-top: 0;
+  }
+
+  #Edition label{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 10px; 
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: bold;
+    color: #aaa;
   }
 
   #Edition textarea{
@@ -1464,7 +1478,7 @@
   }
 
   #Edition input[type=submit]{
-    margin-top: 75px;
+    margin-top: 100px;
     font-weight: bold;
     transition: 0.2s ease-in-out;
   }
@@ -1474,7 +1488,26 @@
     transition: 0.2s ease-in-out;
   }
 
-  #Edition input[type=date]{
+  #Edition select{
+    min-height: 45px;
+  }
+
+  #Edition input[type=file]{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 100%;
+    min-height: 50px;
+    background-color: #EFEFEF;
+    border-radius: 0px;
+    border: none;
+    padding: 10px;
+    color: #423e68;
+    font-size: 16px;
+    font-family: 'Roboto';
+  }
+
+/*  #Edition input[type=date]{
     margin-top: 50px;
     width: 65.5vw;
     height: 35px; 
@@ -1483,7 +1516,7 @@
     border: 1px solid #03AFA8;
     border-radius: 5px;
   }
-
+*/
 
 
 

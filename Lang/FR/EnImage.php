@@ -14,7 +14,7 @@
 
                 <div class="ListCategories1">
                     <div id="Categorie1">
-                        <a href="#"><img src="style/Assets/Flamming.jpg" style="width: 100%; border-radius: 5px;"></a>
+                        <a href="#"><img src="style/Assets/Flaming.jpg" style="width: 100%; border-radius: 5px;"></a>
                         <!-- <h3>FLAMMING</h3> -->
                     </div>
 

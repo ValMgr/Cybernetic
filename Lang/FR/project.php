@@ -1,7 +1,6 @@
 <div class="wrapper">
+    
 
-
-              
 
                 <?php include 'NAVBAR.php'; ?>
 
