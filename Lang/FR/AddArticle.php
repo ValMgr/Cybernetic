@@ -1,7 +1,18 @@
-<?php 
+<?php  
+ $dbPdo = mysqli_connect("localhost", "root", "", "cybernetic");  
+ if(isset($_POST["insert"]))  
+ {  
+      $file = addslashes(file_get_contents($_FILES["image"]["tmp_name"]));  
+      $query = "INSERT INTO tbl_images(name) VALUES ('$file')";  
+      if(mysqli_query($connect, $query))  
+      {  
+           echo '<script>alert("Image Inserted into Database")</script>';  
+      }  
+ }
+
     include '../../Files/Connect/db_connection.php';
-    include '../../Files/Connect/connection_check.php';
-     ?>
+    include '../../Files/Connect/connection_check.php';  
+?>
 
 
 <!DOCTYPE html>
@@ -13,7 +24,8 @@
     <title>CyberNeTic</title>
     <link rel="stylesheet" type="text/css" media="screen" href="../../style/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="../../style/mainResponsive.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../../style/hexagon.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../style/hexagon.css" /> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> 
 
@@ -45,18 +57,13 @@
 
                 <a id="Return" href="Admin.php">Retour</a>
 
-                <form method="post">
-                    <label for="NbrParagraphe">Nombre de paragraphe</label>
-                    <input type="number" id="NbrPara" name="NbrPara" min="1" max="5" onchange="NbrParagraphe()" value="1">
-                </form>
-
-                <form id="Edition" action="Article_Add.php" method="post">
+                <form id="Edition" action="Article_Add.php" method="post" enctype="multipart/form-data">
                     <input type="text" name="titre" placeholder="Titre">
                     <textarea class="chapo" placeholder="Châpo..."></textarea>
-                    <input type="text" name="soustitre" placeholder="Sous-Titre">
+                    <label for="NbrParagraphe">Nombre de paragraphe</label>
+                    <input type="number" id="NbrPara" name="NbrPara" min="1" max="5" onchange="NbrParagraphe()" value="1">
                     <textarea class="paragraphe" placeholder="Paragraphe..."></textarea>
-                    <input type="text" name="lieu" placeholder="Lieu..." id="Here">
-                    <select type="text" name="listbox" placeholder="Langue">
+                    <select type="text" name="listbox" placeholder="Langue" id="Here">
 
                         <?php foreach($stmt as $key => $value){  ?>
                             <option value="<?php  echo($value[0]);   ?>"><?php echo($value[1]); ?></option>
@@ -64,6 +71,7 @@
 
                     </select>
                     <!-- <input type="date" name="date"> -->
+                    <input type="file" name="image" id="image" />
                     <input type="submit" name="Envoie" value="VALIDER">
                 </form>
 
@@ -121,5 +129,28 @@
            
 
         </script>
+
+         <script>  
+         $(document).ready(function(){  
+              $('#insert').click(function(){  
+                   var image_name = $('#image').val();  
+                   if(image_name == '')  
+                   {  
+                        alert("Please Select Image");  
+                        return false;  
+                   }  
+                   else  
+                   {  
+                        var extension = $('#image').val().split('.').pop().toLowerCase();  
+                        if(jQuery.inArray(extension, ['gif','png','jpg','jpeg']) == -1)  
+                        {  
+                             alert('Invalid Image File');
+                             $('#image').val('');  
+                             return false;  
+                        }  
+                   }  
+              });  
+         });  
+         </script>  
 
 </html>

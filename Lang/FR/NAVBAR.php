@@ -1,6 +1,6 @@
 <!-- NAVBAR - Lang = FR -->
 
-                    <?php include 'Files/const.php'; ?>
+                    <?php include '../../Files/const.php'; ?>
 
                     <div class="navbar">
                         <a href="Actualites">ACTUALITES</a>
