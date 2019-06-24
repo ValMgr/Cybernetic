@@ -1,9 +1,7 @@
   <?php 
-    //include 'Files/Connect/db_connection.php';
-    //include 'Files/Connect/connection_check.php';
-    //include 'Files/Language/LanguageManager.php';
+    include 'Files/Connect/db_connection.php';
+    include 'Files/Connect/connection_check.php';
 
-    session_start();
 
      ?>
 

@@ -10,6 +10,13 @@
                         <a href="Redirection">RESSOURCES</a>
                         <a href="index"><i class="fas fa-home"></i></a>
                         <a href="#"><i class="fas fa-search"></i></a>
+
+                        <?php 
+                            if(isset($_SESSION['Connected']) && $_SESSION['Connected'] == true){
+                                ?> <a href="Files/Connect/disconnect.php" style="font-size: 1.5em;"><i class="fas fa-times"></i></a> <?php
+                            }
+                        ?>
+
                         <div id="LangDropdown"><img src="<?php echo LogoFR; ?>">
                             <div id="LangDropdown-content">
 
