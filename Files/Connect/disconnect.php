@@ -1,4 +1,4 @@
-<?php include '../@import/db_connection.php'; ?>
+<?php include 'db_connection.php'; ?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -23,7 +23,7 @@
         unset($_SESSION['Connected']);
         unset($_SESSION['Email']);
 
-        header ('location: ../index.php');
+        header ('location: ../../index.php');
 
 
     

@@ -1,6 +1,6 @@
 <!-- NAVBAR - Lang = ESP -->
 
-                    <?php include 'Files/Const/const.php'; ?>
+                    <?php include 'Files/const.php'; ?>
 
 
                     <div class="navbar">

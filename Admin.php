@@ -49,7 +49,7 @@
             }
         }
         else{
-            header('location: Lang/FR/Connect.php');
+            header('location: Connect.php');
 
         }
         ?>
