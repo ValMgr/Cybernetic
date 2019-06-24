@@ -49,7 +49,14 @@
                     
 
                     <div class="HexagonGroupHome1">
-                        <img src="style/Assets/test2.jpg" class="hexagonHome1">
+                        <div class="Projetglitch" >
+                            <div class="hexagonHome1 glitch_"></div>
+                            <div class="hexagonHome1 glitch_"></div>
+                            <div class="hexagonHome1 glitch_"></div>
+                            <div class="hexagonHome1 glitch_"></div>
+                            <div class="hexagonHome1 glitch_"></div>
+                        </div>
+
                         <!-- <div class="hexagonHome1"></div> -->
                         <div id="hexagonHome1-1"></div>
                         <div id="hexagonHome2"></div>
