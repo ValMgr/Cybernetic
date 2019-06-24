@@ -10,7 +10,7 @@
                     <h2 id="hexagonProject1-title">Espace Administrateur</h2>
                 </div>
 
-                <a id="AdminbtnCreate" href="EditNewArticle.php">Nouvel Article</a>
+                <a id="AdminbtnCreate" href="Lang/FR/AddArticle.php">Nouvel Article</a>
 
                 <h3 class="listadmin">Liste des Articles & Actuaités</h3>
 

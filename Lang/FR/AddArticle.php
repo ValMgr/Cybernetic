@@ -52,11 +52,10 @@
 
                 <form id="Edition" action="Article_Add.php" method="post">
                     <input type="text" name="titre" placeholder="Titre">
-                    <textarea class="chapo" placeholder="Châpo..."></textarea>
+                    <textarea class="chapo" placeholder="Châpo..." ></textarea>
                     <input type="text" name="soustitre" placeholder="Sous-Titre">
-                    <textarea class="paragraphe" placeholder="Paragraphe..."></textarea>
-                    <input type="text" name="lieu" placeholder="Lieu..." id="Here">
-                    <select type="text" name="listbox" placeholder="Langue">
+                    <textarea class="paragraphe" placeholder="Paragraphe..." ></textarea>
+                    <select type="text" name="listbox" placeholder="Langue" id="Here">
 
                         <?php foreach($stmt as $key => $value){  ?>
                             <option value="<?php  echo($value[0]);   ?>"><?php echo($value[1]); ?></option>
