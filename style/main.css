@@ -2094,7 +2094,7 @@
   animation-name: glitch3;
 }
 .glitch_:nth-child(5) {
-  background-color: #9b9b9b;;
+  background-color:  rgb(255, 255, 255);
   background-blend-mode: overlay;
   animation-name: glitchflash;
 }
