@@ -21,7 +21,7 @@
 
         try{
             $dbPdo = new PDO($server, $user, $password);
-            //echo "<h3 style=\"color:green;\">db Connected</h3>";
+            //echo "<h3 style=\"color:green;\">db Connected</h3> <br> <p style=\"color:blue;\">PDO started</p>";
         }
         catch (PDOException $e) {
             echo "<h3 style=\"color:red;\">Unable to connect db</h3>";    

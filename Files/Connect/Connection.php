@@ -20,12 +20,22 @@
 <body>
 
     <?php
-        
+
+      
         if (isset($_POST['Username']) && isset($_POST['Password'])){
 
-                $Checkdb = "SELECT * FROM `USERS` WHERE 1";
+                $Checkdb = "SELECT * FROM `users`";
+                print_r($Checkdb);
+                echo ("<br>");
+
                 $Checkdb = $dbPdo->query($Checkdb);
+                print_r($query);
+                echo ("<br>");
+
                 $Result = $Checkdb->fetchAll(); 
+                print_r($Result);
+
+                
 
                 
                 
@@ -38,15 +48,15 @@
 
                         $_SESSION['Connected'] = true;
                         $_SESSION['Email'] = $Rows[2];
-                        header('location: ../../admin.php');
+                        header('location: ../../Admin.php');
                         die;
                     }                    
                 }
 
                 $_SESSION['Connected'] = false;
                 echo '<body onLoad="alert(\'Error, invalid username or password ...\')">';
-                echo '<meta http-equiv="refresh" content="0;URL=Connect.php">';
-
+                echo '<meta http-equiv="refresh" content="0;URL=../../Connect.php">';
+                
 
         }
 

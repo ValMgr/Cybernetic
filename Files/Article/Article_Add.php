@@ -83,37 +83,34 @@
             $Para5 = "NULL";
         }
 
-        //$NumLang = $_SESSION['NumLang'];
-        $NumLang = "FRA01";
-        $UrlPhoto = $_POST['Picture'];
+        $NumLang = $_POST['NumLang'];
 
         $AddArticle = "INSERT INTO `articles`(`DateArticle`, `TitleArticle`, `ChapoArticle`, `Paragraphe1`,
             `Subtitle1`, `Paragraphe2`, `Subtitle2`, `Paragraphe3`, `Subtitle3`, `Paragraphe4`,
-            `Subtitle4`, `Paragraphe5`, `UrlPicture`, `NumLang`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+            `Subtitle4`, `Paragraphe5`, `NumLang`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
         $query = $dbPdo->prepare($AddArticle);
      
 
-        $query->bindValue(1, $date, PDO::PARAM_STR); echo $date . "<br />";
-        $query->bindValue(2, $title, PDO::PARAM_STR); echo $title . "<br />";
-        $query->bindValue(3, $chapo, PDO::PARAM_STR); echo $chapo . "<br />";
-        $query->bindValue(4, $Para1, PDO::PARAM_STR); echo $Para1 . "<br />"; 
-        $query->bindValue(5, $Sub2, PDO::PARAM_STR); echo $Sub2 . "<br />";
-        $query->bindValue(6, $Para2, PDO::PARAM_STR); echo $Para2 . "<br />";
-        $query->bindValue(7, $Sub3, PDO::PARAM_STR); echo $Sub3 . "<br />";
+        $query->bindValue(1, $date, PDO::PARAM_STR);  echo $date . "<br />";
+        $query->bindValue(2, $title, PDO::PARAM_STR);  echo $title . "<br />";
+        $query->bindValue(3, $chapo, PDO::PARAM_STR);  echo $chapo . "<br />";
+        $query->bindValue(4, $Para1, PDO::PARAM_STR);  echo $Para1 . "<br />"; 
+        $query->bindValue(5, $Sub2, PDO::PARAM_STR);  echo $Sub2 . "<br />";
+        $query->bindValue(6, $Para2, PDO::PARAM_STR);  echo $Para2 . "<br />";
+        $query->bindValue(7, $Sub3, PDO::PARAM_STR);  echo $Sub3 . "<br />";
         $query->bindValue(8, $Para3, PDO::PARAM_STR); echo $Para3 . "<br />";
-        $query->bindValue(9, $Sub4, PDO::PARAM_STR); echo $Sub4 . "<br />";
-        $query->bindValue(10, $Para4, PDO::PARAM_STR); echo $Para4 . "<br />";
-        $query->bindValue(11, $Sub5, PDO::PARAM_STR); echo $Sub5 . "<br />";
-        $query->bindValue(12, $Para5, PDO::PARAM_STR); echo $Para5 . "<br />";
-        $query->bindValue(13, $UrlPhoto, PDO::PARAM_STR); echo $UrlPhoto . "<br />";
-        $query->bindValue(14, $NumLang, PDO::PARAM_STR); echo $NumLang . "<br />";
+        $query->bindValue(9, $Sub4, PDO::PARAM_STR);  echo $Sub4 . "<br />";
+        $query->bindValue(10, $Para4, PDO::PARAM_STR);  echo $Para4 . "<br />";
+        $query->bindValue(11, $Sub5, PDO::PARAM_STR);  echo $Sub5 . "<br />";
+        $query->bindValue(12, $Para5, PDO::PARAM_STR);  echo $Para5 . "<br />";
+        $query->bindValue(13, $NumLang, PDO::PARAM_STR);  echo $NumLang . "<br />";
 
         $query->execute();
 
         print_r($query);
 
-        header('location: Article.php')
+        header('location: ../../Admin.php')
 
 
  ?>

@@ -1,23 +1,12 @@
-<?php  
- $dbPdo = mysqli_connect("localhost", "root", "", "cybernetic");  
- if(isset($_POST["insert"]))  
- {  
-      $file = addslashes(file_get_contents($_FILES["image"]["tmp_name"]));  
-      $query = "INSERT INTO tbl_images(name) VALUES ('$file')";  
-      if(mysqli_query($connect, $query))  
-      {  
-           echo '<script>alert("Image Inserted into Database")</script>';  
-      }  
- }
- ?>
+
 
         <div class="wrapper">
 
         <?php
          
-            $query = "SELECT * FROM Langues";
-            $stmt = $dbPdo->prepare($query);
-            $stmt->execute();
+            $query = "SELECT * FROM `Langues`";
+            $stmt = $dbPdo->query($query);
+            $result = $stmt->fetchAll();
 
 
 
@@ -37,21 +26,21 @@
 
                 <a id="Return" href="Admin.php">Retour</a>
 
-                <form id="Edition" action="Article_Add.php" method="post" enctype="multipart/form-data">
-                    <input type="text" name="titre" placeholder="Titre">
-                    <textarea class="chapo" placeholder="Châpo..."></textarea>
+                <form id="Edition" action="Files/Article/Article_Add.php" method="post" enctype="multipart/form-data">
+                    <input type="text" name="title" placeholder="Titre">
+                    <textarea name="chapo" class="chapo" placeholder="Châpo..."></textarea>
                     <label for="NbrParagraphe">Nombre de paragraphe</label>
                     <input type="number" id="NbrPara" name="NbrPara" min="1" max="5" onchange="NbrParagraphe()" value="1">
                     <textarea class="paragraphe" placeholder="Paragraphe..."></textarea>
-                    <select type="text" name="listbox" placeholder="Langue" id="Here">
+                    <select type="text" name="NumLang" placeholder="Langues" id="Here">
 
-                        <?php foreach($stmt as $key => $value){  ?>
+                        <?php foreach($result as $key => $value){  ?>
                             <option value="<?php  echo($value[0]);   ?>"><?php echo($value[1]); ?></option>
                         <?php  } ?>
 
                     </select>
                     <!-- <input type="date" name="date"> -->
-                    <input type="file" name="image" id="image" />
+                    <!-- <input type="file" name="image" id="image" /> -->
                     <input type="submit" name="Envoie" value="VALIDER">
                 </form>
 
@@ -93,7 +82,7 @@
 
                     if(ActualPara == 1){
                         here.insertAdjacentHTML('beforebegin',
-                                 '<textarea class="paragraphe" placeholder="Paragraphe..."></textarea>');
+                                 '<textarea class="paragraphe" placeholder="Paragraphe..." name="Paragraphe1"></textarea>');
                     }
                     else if(ActualPara > 1){
                         here.insertAdjacentHTML('beforebegin',
