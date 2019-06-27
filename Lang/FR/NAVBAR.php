@@ -3,7 +3,7 @@
                     <?php include 'Files/const.php'; ?>
                     
 
-                    <div class="navbar">
+                    <div id="navbar" class="navbar">
                         <a href="Actualites">ACTUALITES</a>
                         <a href="projet">PROJET</a>
                         <a href="Temoignage">TEMOIGNAGE</a>
