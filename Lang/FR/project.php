@@ -150,6 +150,8 @@
                     <img class="hexagonProjectPartenaire" src="style/Assets/Logo-UB.jpg" style="padding: 0px;">
                 </div>
 
+                <?php include 'FOOTER.php'; ?>
+
 
         </div>
         <br><br><br><br><br>

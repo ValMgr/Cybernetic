@@ -1,3 +1,13 @@
+<?php
+
+    $getArticles = "SELECT * FROM ARTICLES";
+    $query = $dbPdo->query($getArticles);
+    $Articles = $query->fetchAll();
+
+    //print_r($Articles);
+
+?>
+
 <!-- Index / Lang = FR -->
 
     <div class="wrapper">
@@ -69,33 +79,32 @@
 
                     <div class="Actuality"> <h2><i class="far fa-newspaper"></i> ACTUALITES</h2> </div>
 
+
+                    <?php
+
+                    $i = 0;
+                    foreach ($Articles as $key => $rows) {
+                        $i++;
+
+                        if($i < 4){   ?>
+
                     <div class="LastActu">
-                        <div id="LastActu1">
-                            <img src="style/Assets/Actu1.jpg" style="width: 100%; border-radius: 5px 5px 0px 0px;">
-                            <h3> Le corps du délit, de la séduction à l’humiliation</h3>
-                            <p> Le cyberharcèlement en question, les instrumentalisations plurielles du corps dans le cadre de cyberviolences.</p>
-                            <p class="ActuDate"><i class="far fa-clock"></i> 03.06.19</p>
+                        <div id="LastActu<?php echo ($i) ?>">
+                            <img src="style/Assets/Actu<?php echo ($i) ?>.jpg" style="width: 100%;"> <!-- Img en dur -->
+                            <h3><?php echo ($rows[2]); ?></h3>
+                            <p><?php echo ($rows[3]); ?></p>
+                            <p class="ActuDate"><i class="far fa-clock"></i> <?php echo ($rows[1]); ?></p>
                         </div>
-                        <div id="LastActu1-1"></div>
+                        <div id="LastActu<?php echo ($i) ?>-<?php echo ($i); ?>"></div>
 
-                        <div id="LastActu2">
-                            <img src="style/Assets/Actu2.jpg" style="width: 100%; border-radius: 5px 5px 0px 0px;">
-                            <h3> Dark net & cybercriminalité</h3>
-                            <p>Le hacking au secours des organisations dans le cadre du programme de recherche CyberNeTic.</p>
-                            <p class="ActuDate"><i class="far fa-clock"></i> 03.06.19</p>
-                        </div>
-                        <div id="LastActu2-2"></div>
-
-                        <div id="LastActu3">
-                            <img src="style/Assets/Actu3.jpg" style="width: 100%; border-radius: 5px 5px 0px 0px;">
-                            <h3> Stratégies amoureuses & cyberharcèlement </h3>
-                            <p>Quand le discours manipulateur devient un crime de langue sur les réseaux sociaux. <br><br></p>
-                            <p class="ActuDate"><i class="far fa-clock"></i> 03.06.19</p>
-                        </div>
-                        <div id="LastActu3-3"></div>
                     </div>
 
-                    <div id="ActuMore"><a href="Actualites.php" class="More">En savoir plus</a></div>
+                    <?php } } ?>
+
+                        
+                    
+
+                    <div class="ActuMore"><a href="Actualites.php" class="More">EN VOIR PLUS</a></div>
 
 
                     <div id="hexagonHomeDeco2"></div>

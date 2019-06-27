@@ -51,4 +51,7 @@
                 <div style="grid-row: 12;"></div>
 
 
+                <?php include 'FOOTER.php'; ?>
+
+
         </div>
