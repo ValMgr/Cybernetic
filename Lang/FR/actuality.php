@@ -1,3 +1,13 @@
+<?php
+
+    $getArticles = "SELECT * FROM ARTICLES";
+    $query = $dbPdo->query($getArticles);
+    $Articles = $query->fetchAll();
+
+    //print_r($Articles);
+
+?>
+
 <!-- Actuality / Lang = FR -->
 
 <div class="wrapper">
@@ -15,70 +25,71 @@
                     <h2 id="hexagonProject1-title">Actualités</h2>
                 </div>
 
+
                 <div class="ListActus1">
-                    <div id="Actu1">
-                        <img src="style/Assets/Actu1.jpg" style="width: 100%;">
-                        <h3> Le corps du délit </h3>
-                        <p> De la séduction à l’humiliation, le cyberharcèlement en question, les instrumentalisations plurielles du corps dans le cadre de cyberviolences.</p>
-                        <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
-                        <p class="ActuDate"><i class="far fa-clock"></i> 11.03.19</p>
+
+                    <?php 
+
+                    $j = 0;
+                    foreach ($Articles as $key => $rows) {
+                    
+                        $j++;
+
+                        if($j < 4){ ?>
+            
+                
+                    <div id="Actu<?php echo ($j) ?>">
+                        <img src="style/Assets/Actu<?php echo ($j) ?>.jpg" style="width: 100%;">
+                        <h3><?php echo ($rows[2]); ?></h3>
+                        <p><?php echo ($rows[3]); ?></p>
+                        <p class="ActuDate"><i class="far fa-clock"></i> <?php echo ($rows[1]); ?></p>
                     </div>
-                    <div id="Actu1-2"></div>
+                    <div id="Actu<?php echo ($j); ?>-2"></div>
 
-
-                    <div id="Actu2">
-                        <img src="style/Assets/Actu2.jpg" style="width: 100%;">
-                        <h3 class="longtitle"> Dark net & cybercriminalité</h3>
-                        <p>Le hacking au secours des organisations dans le cadre du programme de recherche CyberNeTic.</p>
-                        <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
-                        <p class="ActuDate"><i class="far fa-clock"></i> 29.03.19</p>
-                    </div>
-                    <div id="Actu2-2"></div>
-
-
-                    <div id="Actu3">
-                        <img src="style/Assets/Actu3.jpg" style="width: 100%;">
-                        <h3 class="longtitle"> Stratégies amoureuses & cyberharcèlement </h3>
-                        <p>Quand le discours manipulateur devient un crime de langue sur les réseaux sociaux. <br><br> </p>
-                        <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
-                        <p class="ActuDate"><i class="far fa-clock"></i> 19.04.19</p>
-                    </div>
-                    <div id="Actu3-2"></div>
+               <?php } } ?>
 
                 </div>
 
                 <div class="ListActus2">
-                    <div id="Actu4">
+
+                    <?php 
+
+                    for ($i=3; $i < 6; $i++) { 
+                                          
+                            if(isset($Articles[$i])){                  
+                                
+                            ?>
+
+                    <div id="Actu<?php echo ($i+1) ?>">
+                        <img src="style/Assets/Actu5.jpg" style="width: 100%;">
+                        <h3><?php echo ($Articles[$i][2]); ?></h3>
+                        <p><?php echo ($Articles[$i][3]); ?></p>
+                        <p class="ActuDate"><i class="far fa-clock"></i> <?php echo ($Articles[$i][1]); ?></p>
+                    </div>
+                    <div id="Actu<?php echo ($i+1) ?>-2"></div>
+
+                    <?php  
+                    
+                            }
+                            else if(!isset($Articles[$i])) {   ?>
+
+                    <div id="Actu<?php echo ($i+1) ?>">
                         <img src="style/Assets/Actu5.jpg" style="width: 100%;">
                         <h3> A Venir </h3>
                         <p>Nos prochaines conférences et actualités sur le domaine du CyberHarcèlement seront bientôt disponibles. Restez à l'écoute. <br><br></p>
-                        <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
-                        <p class="ActuDate"><i class="far fa-clock"></i> 03.06.19</p>
+                        <p class="ActuDate"><i class="far fa-clock"></i> Unknow</p>
                     </div>
-                    <div id="Actu4-2"></div>
+                    <div id="Actu<?php echo ($i+1) ?>-2"></div>
 
-
-                    <div id="Actu5">
-                        <img src="style/Assets/Actu5.jpg" style="width: 100%;">
-                        <h3> A Venir </h3>
-                        <p>Nos prochaines conférences et actualités sur le domaine du CyberHarcèlement seront bientôt disponibles. Restez à l'écoute. <br><br></p>
-                        <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
-                        <p class="ActuDate"><i class="far fa-clock"></i> 03.06.19</p>
-                    </div>
-                    <div id="Actu5-2"></div>
-
-
-                    <div id="Actu6">
-                        <img src="style/Assets/Actu5.jpg" style="width: 100%;">
-                        <h3> A Venir </h3>
-                        <p>Nos prochaines conférences et actualités sur le domaine du CyberHarcèlement seront bientôt disponibles. Restez à l'écoute. <br><br></p>
-                        <a href="#"><i class="fas fa-globe-europe"></i> Lieu </a>
-                        <p class="ActuDate"><i class="far fa-clock"></i> 03.06.19</p>
-                    </div>
-                    <div id="Actu6-2"></div>
+                   <?php } }?>
 
                 </div>
 
-                <!-- <div id="MailleActus2"></div> -->
+
+                <?php include 'FOOTER.php'; ?>
+
+
+                
+                
 
         </div>

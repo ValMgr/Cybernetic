@@ -7,4 +7,9 @@ else {
     $Connected = false;
 }
 
+if (!isset($_SESSION['Langue'])) {
+    header('location: index.php');
+
+}
+
 ?>
