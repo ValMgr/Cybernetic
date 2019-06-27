@@ -75,48 +75,24 @@
     left: calc(50% - 460.5px);
   }
 
-  .About{
-    position: relative;
-    z-index: 2;
-    grid-row: 3;
-    grid-column: 6 / 11;
-  }
 
-  .About p{
-    font-size: 1.2em;
-    font-family: 'Roboto';
-    color: rgb(0, 0, 0);
-    text-align: justify
-  }
 
-  .About a{
-    margin-top: 20px;
-    transition: 0.2s ease-in-out;
-  }
-
-  .About a:hover{
-    color: rgb(4, 206, 199);
-    border: solid 2px rgb(4, 206, 199);
-    transition: 0.2s ease-in-out;
+  .sticky {
 
   }
-
-  #UselessBar{
-    grid-column: 4 / 6;
-    grid-row: 3;
-    width: 12vw;
-    height: 4px;
-    background-color: #006579;
-    transform: translate(15px, 20px);
-    z-index: 2;
-  }
-  
 
   .navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
     grid-column: 1 / 13;
     grid-row: 1;
     text-align: right;
-    margin: 10px;
+    padding: 5px;
+    padding-bottom: 10px;
+    background-color: #F8F8F8;
+    border-bottom: 3px solid #F5F5F5;
+    z-index: 5;
   }
 
   .navbar a,img{
@@ -173,236 +149,307 @@
     text-decoration: none;
   }
 
+  .Lang:hover{
+    text-decoration: none;
+    border-bottom: none !important;
+  }
+
   #select{
     color: #03AFA8;
     border-bottom: solid;
   }
 
+
+
+
+
+
+
+ .HexagonGroupHome0{
+    grid-column: 6 / 8;
+    grid-row: 2;
+    transform: translateX(-3vw);
+    z-index: 3;
+  }
+  
+  .HexagonGroupHome0 h2{
+    color: #174691;
+    font-family: 'Roboto';
+    font-size: 2.6em;
+    position: relative;
+    font-weight: medium;
+    opacity: 0.9;
+  }
+ 
+  #AboutDiv{
+    grid-column: 1 / 13;
+    grid-row: 3 / 6;
+    height: 105%;
+    background-color: #EFEFEF;
+    z-index: 3;
+  }
+
   .HexagonGroupHome1{
-    grid-column: 3 / 4;
-    grid-row: 3; 
+    grid-column: 2 / 3;
+    grid-row: 4; 
     transform: translate(0px, -50px);
-    z-index: 2;
+    z-index: 3;
   }
 
   .HexagonGroupHome1 h3{
     color: white;
     font-family: 'Roboto';
-    font-size: 2.3em;
+    font-size: 2em;
     position: relative;
     font-weight: medium;
  
   }
 
-  
-/*  #MailleHome1{
-    grid-column: 1 / 12;
-    grid-row: 3 / 6;
-    background-image: url('Assets/Maille.png');
-    background-size: 95% auto;
-    background-repeat: no-repeat;
-    transform: scaleX(-1);
+  #UselessBar1{
+    grid-column: 3 / 6;
+    grid-row: 4;
+    width: 15vw;
+    height: 4px;
+    background-color: rgba(3, 175, 168, 0.9);
+    transform: translate(0px, 20px);
+    z-index: 3;
+  }  
+
+  .About{
     position: relative;
-    z-index: 0;
-    opacity: 0.6;
-  }*/
+    grid-row: 4;
+    grid-column: 4 / 10;
+    transform: translate(0px, 75px);
+    z-index: 3;
+  }
+
+  .About p{
+    font-size: 1.2em;
+    font-family: 'Roboto';
+    color: #707070;
+    text-align: justify
+  }
+
+  #UselessBar2{
+    grid-column: 8 / 11;
+    grid-row: 5;
+    width: 15vw;
+    height: 3px;
+    background-color: rgba(3, 175, 168, 0.9);
+    transform: translate(0px, 20px);
+    z-index: 3;
+  }
+
+  #Aboutlink{
+    grid-column: 10 / 13;
+    grid-row: 5;
+    transform: translate(-1vw, 20px);
+    z-index: 3;
+  }
+
+  .Aboutlink a{
+    margin-top: 20px;
+    transition: 0.2s ease-in-out;
+    background-color: transparent;
+  }
+
+  .Aboutlink a:hover{
+    color: rgb(4, 206, 199);
+    border: solid 2px rgb(4, 206, 199);
+    transition: 0.2s ease-in-out;
+  }
+
+
+
   
   .Actuality{
-    grid-column: 3 / 4;
-    grid-row: 6;
+    grid-column: 2 / 3;
+    grid-row: 7;
+    width: 115%;
     z-index: 2;
+    background-color: rgba(255, 255, 255, 0.35);
   }
 
   .Actuality h2{
     font-family: 'Roboto';
-    font-size: 2em;
-    border-bottom: solid 2px #174691;
+    font-size: 1.8em;
+    border-bottom: solid 3px #174691;
     color: #174691;
   }
 
+  .LastActu{
+    grid-column: 2 / 12;
+    grid-row: 8;
+    display: block;
+  }
 
- .LastActu{
-   grid-column: 3 / 11;
-   grid-row: 7 / 12;
-   display: block;
- }
+  .LastActu h3{
+    color: #03AFA8;
+    font-size: 1.5em;
+    font-family: 'Roboto';
+    padding: 10px;
+    position: absolute;
+  }
 
- .LastActu h3{
-   color: #03AFA8;
-   font-size: 1.8em;
-   font-family: 'Roboto';
-   padding: 10px;
- }
+  .LastActu p{
+    color: #BEBEBE;
+    padding: 10px;
+    padding-top: 90px;
+    font-family: 'Roboto';
+    font-size: 1.05em;
+  }
 
- .ActuDate{
-  color: #03AFA8 !important;
- }
+  .LastActu a{
+    padding: 10px;
+    color: #03AFA8;
+    text-decoration: unset;
+    font-family: 'Roboto';
+    font-size: 1.2;
+  }
 
- .LastActu p{
-   color: #BEBEBE;
-   padding: 10px;
-   font-family: 'Roboto';
-   font-size: 1.1em;
- }
+  p.ActuDate{
+    color: #03AFA8 !important;
+    position: absolute;
+    bottom: 0;
+    font-size: 0.9em;
+  }
 
- .LastActu a{
-   padding: 10px;
-   color: #03AFA8;
-   text-decoration: unset;
-   font-family: 'Roboto';
-   font-size: 1.2;
- }
+  #LastActu1{
+    width: 300px;
+    height: 380px;
+    background-color: rgba(23, 70, 145, 0.10);
+    box-shadow: -5px 4px 5px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    position: absolute;
+    z-index: 3;
+    }
 
- .ActuDate{
-  color: #03AFA8
- }
+  #LastActu1-1{
+    width: 300px;
+    height: 380px;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+    }
 
- #LastActu1{
-  width: 300px;
-  height: 400px;
-  background-color: rgba(23, 70, 145, 0.10);
-  position: absolute;
-  z-index: 3;
-}
- #LastActu1-1{
-  width: 300px;
-  height: 400px;
-  background-color: white;
-  position: absolute;
-  z-index: 2;
-}
+  #LastActu2{
+    width: 300px;
+    height: 380px;
+    background-color: rgba(23, 70, 145, 0.10);
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    position: absolute;
+    left: 40vw;
+    z-index: 3;
+  }
 
-#LastActu2{
-  width: 300px;
-  height: 400px;
-  background-color: rgba(23, 70, 145, 0.10);
-  position: absolute;
-  left: 40%;
-  z-index: 3;
-}
+  #LastActu2-2{
+    width: 300px;
+    height: 380px;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 40vw;
+    z-index: 2;
+  }
 
-#LastActu2-2{
-  width: 300px;
-  height: 400px;
-  background-color: white;
-  position: absolute;
-  left: 40%;
-  z-index: 2;
-}
+  #LastActu3{
+    width: 300px;
+    height: 385px;
+    background-color: rgba(23, 70, 145, 0.10);
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    position: absolute;
+    left: 72vw;
+    z-index: 3;
+  }
 
-#LastActu3{
-  width: 300px;
-  height: 400px;
-  background-color: rgba(23, 70, 145, 0.10);
-  position: absolute;
-  left: 65%;
-  z-index: 3;
-}
+  #LastActu3-3{
+    width: 300px;
+    height: 380px;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 72vw;
+    z-index: 2;
+  }
 
-#LastActu3-3{
-  width: 300px;
-  height: 400px;
-  background-color: white;
-  position: absolute;
-  left: 65%;
-  z-index: 2;
-}
+  .More{
+    color: #03AFA8;
+    font-size: 1.4em;
+    font-family: 'Roboto';
+    border: solid 3px #03AFA8;
+    background-color: transparent;
+    border-radius: 5px;
+    position: absolute;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    transition: 0.2s ease-in-out;
+    font-weight: bold;
+    box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.16);
+    z-index: 2;
+  }
 
-#LastActu2 h3.longtitle, #LastActu3 h3.longtitle{
-  font-size: 1.5em;
-}
-
-.Lang:hover{
-  text-decoration: none;
-  border-bottom: none !important;
-}
-
-
-.More{
-  color: #03AFA8;
-  font-size: 1.4em;
-  font-family: 'Roboto';
-  border: solid 2px #03AFA8;
-  background-color: white;
-  border-radius: 5px;
-  position: absolute;
-  text-decoration: none;
-  padding: 10px 30px 10px 30px;
-  transition: 0.2s ease-in-out;
-  z-index: 2;
-}
-
-.More:hover{
-  color: rgb(4, 206, 199);
-  transition: 0.2s ease-in-out;
-}
-
-  .ActuMore{
-    grid-row: 11;
-    grid-column: 5;
-    text-align: center;
+  .More:hover{
+    color: rgb(4, 206, 199);
     transition: 0.2s ease-in-out;
   }
-
-/*  #MailleHome2{
-    grid-column: 1 / 8;
-    grid-row: 7 / 12;
-    background-image: url('Assets/Maille2.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    opacity: 0.3;
-    transform: scaleX(-1) translate(575px, -75px) rotate(-110deg);
-    position: relative;
-    z-index: 1;
-  }*/
-
-  .Partner{
-    grid-row: 13;
-    grid-column: 9 / 11;
-    z-index: 2;
-  }
-
-  .Partner h2{
-    font-family: 'Roboto';
-    font-size: 2em;/*
-    text-decoration: underline; */
-    color: #174691;
-    border-bottom: solid 2px #174691;
-    width: 10em;
-    text-align: right;
-    transform: translateY(50px);
+  #ActuMore{
+    grid-row: 12;
+    grid-column: 1 / 12;
+    background-color: white;
+    transform: translate(-35px, 25px);
+    text-align: center;
+    transition: 0.2s ease-in-out;
+    z-index: 3;
   }
 
 
-/*  #MailleHome3{
-    background: url('Assets/Maille.png') 0 0 no-repeat;
+
+
+
+  #Partners{
     grid-column: 1 / 13;
-    grid-row: 12 / 20;
-    transform: rotate(10deg);
-  }*/
+    grid-row: 14 / 17;
+    height: 100%;
+    text-align: center;
+    background-color: #EFEFEF;
+    padding-top: 50px;
+    z-index: 3;
+  }
+
+  #Partners span{
+    font-family: 'Roboto';
+    font-size: 1.8em;
+    color: #174691;
+    font-weight: bold;
+    border-bottom: solid 3px #174691;
+    margin-left: 1.5vw;
+  }
 
   .HexagonGroupHome2{
-    grid-row: 15;
+    grid-row: 16;
     grid-column: 3 / 5;
     position: relative;
-    transform: translateY(-75px);
-    z-index: 2;
+    transform: translateY(-50px);
+    z-index: 3;
   }
 
   .HexagonGroupHome3{
     grid-row: 16;
     grid-column: 6 / 7;
     position: relative;
-    transform: translate(-75px, -75px);
-    z-index: 2;
+    transform: translate(-1.5vw, -50px);
+    z-index: 3;
   }
 
   .HexagonGroupHome4{
-    grid-row: 15;
+    grid-row: 16;
     grid-column: 9 / 11;
     position: relative;
-    transform: translateY(-25px);
-    z-index: 2;
+    transform: translate(-3vw, -50px);
+    z-index: 3;
   }
 
 
@@ -433,55 +480,6 @@
 
   /* PROJECT PAGE */
 
-/*  #MailleProjet1{
-    grid-column: 1 / 13;
-    grid-row: 3 / 10;
-    background-image: url('Assets/Maille2.png');
-    background-repeat: no-repeat;
-    background-size: auto 85%;
-    opacity: 0.3;
-    transform: scaleX(1) translate(0px, -65px);
-    position: relative;
-    z-index: 10;
-  }
-
-  #MailleProjet2{
-    grid-column: 1 / 12;
-    grid-row: 14 / 22;
-    background-image: url('Assets/Maille2.png');
-    background-repeat: no-repeat;
-    background-size: auto 105%;
-    opacity: 0.3;
-    transform: translate(-250px 0px);
-    position: relative;
-    z-index: 10;
-    float: left;
-    transform: rotate(180deg);
-  }*/
-
-/*  #MailleProjet3{
-    grid-column: 1 / 8;
-    grid-row: 27 / 31;
-    background-image: url('Assets/Maille2.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    opacity: 0.3;
-    transform: scaleX(-1) translateX(575px) rotate(-110deg);
-    position: relative;
-    z-index: 1;
-  }
-
-  #MailleProjet4{
-    grid-column: 1 / 13;
-    grid-row: 33 /39;
-    background-image: url('Assets/Maille2.png');
-    background-repeat: no-repeat;
-    background-size: 90% 90%;
-    opacity: 0.3;
-    transform: scaleX(-1) translate(-550px, 50px);
-    position: relative;
-    z-index: 1;
-  }*/
 
  .HexagonGroupProject1{
     grid-column: 3 / 7;
@@ -1073,12 +1071,12 @@
   }
 
   #Categorie1 a:hover, #Categorie2 a:hover, #Categorie3 a:hover, #Categorie4 a:hover, #Categorie5 a:hover, #Categorie6 a:hover{
-  	opacity: 0.8;
-  	transition: 0.25s ease-in-out;
+    opacity: 0.8;
+    transition: 0.25s ease-in-out;
   }
 
   #Categorie1 a, #Categorie2 a, #Categorie3 a, #Categorie4 a, #Categorie5 a, #Categorie6 a{
-  	transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
   }
 
   #Categorie1, #Categorie2, #Categorie3, #Categorie4, #Categorie5, #Categorie6{
@@ -1757,6 +1755,7 @@
 /*FOOTER*/
 
 #mainfooter {
+  transform: translateY(1525px); /*à enlever lors de l'intégration du footer sur toutes les pages ! */
   display: inline-block;
   position: absolute;
   width: 100%;
@@ -1816,6 +1815,7 @@
 }
 
 #mainfooter2 {
+  transform: translateY(1525px); /*à enlever lors de l'intégration du footer sur toutes les pages ! */
   display: inline-block;
   position: absolute;
   width: 100%;
