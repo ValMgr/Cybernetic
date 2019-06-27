@@ -380,7 +380,7 @@
     font-size: 1.4em;
     font-family: 'Roboto';
     border: solid 3px #03AFA8;
-    background-color: transparent;
+    background-color: white;
     border-radius: 5px;
     position: absolute;
     text-decoration: none;
@@ -395,14 +395,22 @@
     color: rgb(4, 206, 199);
     transition: 0.2s ease-in-out;
   }
+
+  .AboutMore{
+    background-color: #EFEFEF;
+  }
+
   #ActuMore{
     grid-row: 12;
-    grid-column: 1 / 12;
-    background-color: white;
-    transform: translate(-35px, 25px);
+    grid-column: 6 / 8;
+    transform: translate(-35px, 50px);
     text-align: center;
     transition: 0.2s ease-in-out;
     z-index: 3;
+  }
+
+  .ActuMore{
+    position: relative;
   }
 
 
@@ -1755,7 +1763,6 @@
 /*FOOTER*/
 
 #mainfooter {
-  transform: translateY(1525px); /*à enlever lors de l'intégration du footer sur toutes les pages ! */
   display: inline-block;
   position: absolute;
   width: 100%;
@@ -1814,8 +1821,7 @@
   transform: translate(24vw, -75px);
 }
 
-#mainfooter2 {
-  transform: translateY(1525px); /*à enlever lors de l'intégration du footer sur toutes les pages ! */
+/*#mainfooter2 {
   display: inline-block;
   position: absolute;
   width: 100%;
@@ -1830,7 +1836,7 @@
   color: white;
   font-size: 1.1vw;
   font-family: 'Roboto';
-}
+}*/
 
 
 
@@ -2087,8 +2093,8 @@
 
 .Projetglitch{
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  width: 250px;
-  height: 272.5px;
+  width: 200px !important; 
+  height: 222.5px !important;
   position: absolute;
 }
 

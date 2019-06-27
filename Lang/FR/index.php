@@ -65,14 +65,14 @@
 
                     <div class="About">
                         <p> 
-                            En partenariat avec la Gendarmerie Nationale, le projet CyberNeTic vise à mener une recherche-action au coeur des sciences de l'information et de la communication pour étudier les formes d'expression de la violence au moyen des nouvelles technologies et tout particulièrement celle du cyberharcèlement. Il s'agit d'analyser les discours d'expériences (victimes, enquêteurs) et les échanges de conversations (sms, réseaux sociaux, mails, etc.), afin d'identifier les phénomènes d'engrenage, les stratégies d'influence et de manipulation enclenchées par les prédateurs.
+                            En partenariat avec la Gendarmerie Nationale, le projet CyberNeTic vise à mener une recherche-action au coeur des sciences de l'information et de la communication pour étudier les formes d'expression de la violence au moyen des nouvelles technologies et tout particulièrement celle du cyberharcèlement. Il s'agit d'analyser les discours d'expériences (victimes, enquêteurs) et les échanges de conversations (sms, réseaux sociaux, mails, etc.), afin d'identifier les phénomènes d'engrenage, les stratégies d'influence et de manipulation enclenchées par les prédateurs.<br>
                         </p>
                     </div>
 
                     <div id="UselessBar2"></div>
 
                     <div id="Aboutlink">
-                        <a href="projet.php" class="More">En savoir plus</a>
+                        <a href="projet.php" class="More AboutMore">En savoir plus</a>
                     </div>
 
 
@@ -90,7 +90,7 @@
 
                     <div class="LastActu">
                         <div id="LastActu<?php echo ($i) ?>">
-                            <img src="style/Assets/Actu<?php echo ($i) ?>.jpg" style="width: 100%;"> <!-- Img en dur -->
+                            <img style="width:100%; border-radius: 5px 5px 0px 0px;" src="style/Assets/Actu<?php echo ($i) ?>.jpg" style="width: 100%;"> <!-- Img en dur -->
                             <h3><?php echo ($rows[2]); ?></h3>
                             <p><?php echo ($rows[3]); ?></p>
                             <p class="ActuDate"><i class="far fa-clock"></i> <?php echo ($rows[1]); ?></p>
@@ -104,7 +104,7 @@
                         
                     
 
-                    <div class="ActuMore"><a href="Actualites.php" class="More">EN VOIR PLUS</a></div>
+                    <div id="ActuMore"><a href="Actualites.php" class="More ActuMore">EN VOIR PLUS</a></div>
 
 
                     <div id="hexagonHomeDeco2"></div>
