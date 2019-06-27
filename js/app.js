@@ -7,3 +7,8 @@ var plexus = document.getElementById('particles-js');
 plexus.style.height = height + "px";
 // console.log(height);
 
+var DocHeight = document.body.clientHeight;
+var Footer = document.getElementById('mainfooter');
+var FooterHeight = Footer.offsetHeight;
+Footer.style.top = DocHeight + FooterHeight + 'px';
+

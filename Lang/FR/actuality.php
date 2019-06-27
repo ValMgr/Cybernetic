@@ -86,7 +86,8 @@
                 </div>
 
 
-                
+                <?php include 'FOOTER.php'; ?>
+
 
                 
                 
