@@ -1,6 +1,6 @@
 <?php
 
-    $getArticles = "SELECT * FROM ARTICLES";
+    $getArticles = "SELECT * FROM articles";
     $query = $dbPdo->query($getArticles);
     $Articles = $query->fetchAll();
 
@@ -115,7 +115,7 @@
                     </div>
 
                     <div class="HexagonGroupHome2">
-                        <img class="hexagonHome3" src="style/Assets/Logo-NTech.jpg" style="padding: 20px 0px;">
+                        <img class="hexagonHome3" src="style/Assets/Logo-NTech.png" style="padding: 25px 12.5px;">
                         <div class="hexagonHome4"></div>
                         <div id="hexagonHome5"></div>
                     </div>
