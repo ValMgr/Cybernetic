@@ -57,7 +57,7 @@
                         <input type="mail" name="EMail" placeholder=" Email">
                         <input type="tel" name="Phone" placeholder=" Téléphone">
                         <input type="text" name="Topic" placeholder=" Sujet du témoignage">
-                        <textarea name="MainSubject"></textarea>
+                        <textarea name="MainSubject" placeholder="Rédigez votre témoignage ici..."></textarea>
                         <label for="Files">Veuillez sélectionner les captures d'écrans & images appuyant vos propos...</label>
                         <input type="file" name="Files" accept="image/png, image/jpeg, image/jpg" multiple="multiple">
                         <input type="submit" name="Envoi" value="VALIDER">

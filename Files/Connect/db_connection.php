@@ -10,7 +10,7 @@
         // CONNEXION BDD OVH:
 		// $server = 'mysql:dbname=cybernetzxadmin; host=cybernetzxadmin.mysql.db';
 		// $user = 'cybernetzxadmin';
-        // $password = 'MarJC3364Cybe';
+  //       $password = 'MarJC3364Cybe';
 
 
         // CONNEXION BDD LOCALHOST:

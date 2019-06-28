@@ -95,9 +95,6 @@
                 </div>
 
 
-                <div id="MailleProjet3"></div>
-
-
                 <div class="HexagonGroupProject7">
                     <div id="hexagonProject7"></div>
                 </div>
@@ -125,8 +122,7 @@
                     </p>              
 
                 </div>
-
-                <!-- <div id="MailleProjet4"></div> -->
+                
 
                 <div id="partenaires">
                     <h3>NOS PARTENAIRES</h3>
