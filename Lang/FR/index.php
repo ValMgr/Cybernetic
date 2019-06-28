@@ -41,7 +41,7 @@
                     <div class="HexagonGroupHome0">
                         <div id="hexagonHome0"></div>
                         <div id="hexagonHome0-0"></div>
-                        <h2 id="hexagonHome0-title">Accueil</h2>
+                        <h2 id="hexagonHome0-title">CyberNeTic</h2>
                     </div>
 
                     <div id="AboutDiv"></div>
@@ -69,9 +69,9 @@
                         </p>
                     </div>
 
-                    <div id="UselessBar2"></div>
 
                     <div id="Aboutlink">
+                    <div id="UselessBar2"></div>
                         <a href="projet.php" class="More AboutMore">En savoir plus</a>
                     </div>
 
