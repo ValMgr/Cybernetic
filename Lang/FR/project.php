@@ -4,7 +4,6 @@
 
                 <?php include 'NAVBAR.php'; ?>
 
-                <!-- <div id="MailleProjet1"></div> -->
 
                 <div id="particles-js" class="SAH" style="top: 10%;"></div>
 
@@ -19,23 +18,23 @@
 
                 <div id="desc">
                     
-                    <h3>CYBERNETIC C'EST QUOI ?</h3>
+                    <h3 class="descparag1-1">CYBERNETIC C'EST QUOI ?</h3>
                     <p class="descparag1">
                         En partenariat avec la Gendarmerie Nationale, le projet CyberNeTic vise à mener une recherche-action au cœur des sciences de l’information et de la communication pour étudier les formes d’expression de la violence au moyen des nouvelles technologies et tout particulièrement celle du cyberharcèlement. Il s’agit d’analyser les discours d’expériences (victimes, enquêteurs) et les échanges de conversation (sms, réseaux sociaux, mails, etc.), afin d’identifier les phénomènes d’engrenage, les stratégies d’influence et de manipulation enclenchées par les prédateurs. En repérant les comportements spécifiques attachés au cyberharcèlement, cette démarche innovante de recherche appliquée permettra de renforcer concrètement les moyens d’enquête et d’intervention des gendarmes en interne, par le développement d’un script pour améliorer leurs pratiques professionnelles sur ce cas d’infraction, mais également de prévention en externe, par la création d’une application mobile à destination du grand public.
                     </p>
                     <h3>OBJECTIFS DU PROJET</h3>
                     <p>
-                        <ul>
-                            <li>
-                                Développer une dynamique de recherche émergente qui s’appuie sur une collecte de données qualitative inédite en France jamais encore exploitées dans le cadre de travaux scientifiques en sciences humaines et sociales.
-                            </li>
-                            <li>
-                                Mener une recherche-action avec un impact social fort qui vise à améliorer les pratiques professionnelles des enquêteurs de la gendarmerie par une approche compréhensive des cyberviolences chez les jeunes (10-25 ans) et à renforcer leurs moyens d’intervention sur le terrain, notamment en milieu éducatif, dans la lutte contre le cyberharcèlement par la création d’une application mobile.
-                            </li>
-                            <li>
-                                Ouvrir et consolider un dialogue scientifique entre l’université Bordeaux Montaigne et l’institution de la Gendarmerie Nationale afin de développer une dynamique scientifique renouvelée en Sciences de l’information et de la communication qui s’inscrive dans la lignée des recherches contiguës menées par le laboratoire du MICA.
-                            </li>
-                        </ul>
+<!--                         <ul>
+                            <li> -->
+                                <b>Développer une dynamique de recherche émergente</b> qui s’appuie sur une collecte de données qualitative inédite en France jamais encore exploitées dans le cadre de travaux scientifiques en sciences humaines et sociales. <br>
+<!--                             </li>
+                            <li> -->
+                                <b>Mener une recherche-action</b> avec un impact social fort qui vise à améliorer les pratiques professionnelles des enquêteurs de la gendarmerie par une approche compréhensive des cyberviolences chez les jeunes (10-25 ans) et à renforcer leurs moyens d’intervention sur le terrain, notamment en milieu éducatif, dans la lutte contre le cyberharcèlement par la création d’une application mobile. <br>
+<!--                             </li>
+                            <li> -->
+                                <b>Ouvrir et consolider un dialogue scientifique</b> entre l’université Bordeaux Montaigne et l’institution de la Gendarmerie Nationale afin de développer une dynamique scientifique renouvelée en Sciences de l’information et de la communication qui s’inscrive dans la lignée des recherches contiguës menées par le laboratoire du MICA. <br>
+<!--                             </li>
+                        </ul> -->
                     </p>
                 </div>
 
@@ -48,33 +47,43 @@
                     <div id="hexagonProject2-1"></div>
                 </div>
 
-                <!-- <div id="MailleProjet2"></div> -->
 
-                <h3 class="chiffres">QUELQUES CHIFFRES CLES</h3>
+
+
+                <div id="chiffres">
+                    <h3 class="chiffres"><i class="fas fa-percentage"></i> QUELQUES CHIFFRES CLES</h3>
+                </div>
 
                 <div class="HexagonGroupProject3">
                     <div id="hexagonProject3"></div>
                     <div id="hexagonProject3-1"></div>
-                    <h4 id="hexagonProject3-title">Plus de 200</h4>
-                    <p id="hexagonProject3-parag">écoliers se suicident<br> chaque année au<br> Royaume-Uni</p>
+                    <h4 id="hexagonProject3-title">44%</h4>
+                    <p id="hexagonProject3-parag">des enfants de 6 à 8 ans<br>surfent sur internet<br>(soit 1 enfant sur 2)</p>
                 </div>
 
                 <div class="HexagonGroupProject4">
                     <div id="hexagonProject4"></div>
                     <div id="hexagonProject4-1"></div>
-                    <h4 id="hexagonProject4-title">27% des jeunes</h4>
-                    <p id="hexagonProject4-parag">ont déjà été la cible<br> d'insultes ou de propos<br> grossiers sur les <br>réseaux sociaux</p>
+                    <h4 id="hexagonProject4-title">85%</h4>
+                    <p id="hexagonProject4-parag">des cas de<br>cyberharcèlement ont lieu<br>dans le cadre d'un groupe</p>
                 </div>
 
                 <div class="HexagonGroupProject5">
                     <div id="hexagonProject5"></div>
                     <div id="hexagonProject5-1"></div>
-                    <h4 id="hexagonProject5-title">1 jeune sur 5</h4>
-                    <p id="hexagonProject5-parag">a déjà été victime de<br> cyberharcèlement</p>
+                    <h4 id="hexagonProject5-title">40%</h4>
+                    <p id="hexagonProject5-parag">des enfants déclarent<br>avoir subi une agression<br>sur internet</p>
                 </div>
 
+                <!-- <div id="ActuMore" class="KeyNbMore"><a href="Actualites.php" class="More ActuMore">EN VOIR PLUS</a></div> -->
 
-                <div id="equip"><h3>L'EQUIPE</h3></div>
+
+
+                <div id="Equipe"></div>
+
+                <div id="equip">
+                    <h3><i class="fas fa-users"></i> L'EQUIPE <br></h3>
+                </div>
 
 
                  <div class="HexagonGroupProject6">
@@ -88,8 +97,7 @@
                         Elle est membre d’un groupe de recherche sur les « incivilités numériques » dans l’axe COS du laboratoire MICA.
                         Ses travaux s’appuient principalement sur des méthodologies d’analyse statistique textuelle dans le cadre de recherches-actions institutionnelles.
                         Elle attache un intérêt tout particulier aux mécanismes d’influence et de manipulation en ligne.
-                        Elle a par ailleurs dirigé un programme de recherche sur les pédagogies innovantes utilisant les systèmes vidéo-ludiques comme vecteur d’immersion.<!-- 
-                        Elle s’attache dans ce projet à faire le lien entre le terrain d’investigation, le cadrage théorique, les approches méthodologiques, la création du dispositif numérique. -->
+                        Elle a par ailleurs dirigé un programme de recherche sur les pédagogies innovantes utilisant les systèmes vidéo-ludiques comme vecteur d’immersion.
                     </p>              
 
                 </div>
@@ -124,14 +132,17 @@
                 </div>
                 
 
+                <div id="hexagonProjectDeco1"></div>
+                
+
                 <div id="partenaires">
-                    <h3>NOS PARTENAIRES</h3>
+                    <span><i class="far fa-handshake"></i> PARTENAIRES</span>
                 </div>
 
                 <div class="HexagonGroupProject9">
                     <div id="hexagonProject9"></div>
                     <div id="hexagonProject9-1"></div>
-                    <img class="hexagonProjectPartenaire" src="style/Assets/Logo-NTech.jpg">
+                    <img class="hexagonProjectPartenaire" src="style/Assets/Logo-NTech.png">
                 </div>
 
                 <div class="HexagonGroupProject10">
@@ -146,8 +157,10 @@
                     <img class="hexagonProjectPartenaire" src="style/Assets/Logo-UB.jpg" style="padding: 0px;">
                 </div>
 
+                <div id="hexagonProjectDeco2"></div>
+
                 <?php include 'FOOTER.php'; ?>
 
 
         </div>
-        <br><br><br><br><br>
+        <br>

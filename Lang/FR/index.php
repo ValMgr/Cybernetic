@@ -1,4 +1,4 @@
-<?php
+²<?php
 
     $getArticles = "SELECT * FROM `articles`";
     $query = $dbPdo->query($getArticles);

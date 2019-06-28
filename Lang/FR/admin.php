@@ -33,7 +33,7 @@
                         
                     ?>
 
-                        <div id="AdminActu">
+                    <div id="AdminActu">
                         <img src="style/Assets/Actu1.jpg" style="width: 35%;">
                         <h3><?php echo $rows[2];?></h3>
                         <p><?php echo $rows[3];?></p>

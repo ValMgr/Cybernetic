@@ -8,7 +8,8 @@
                         <h4>Mentions Légales</h4>
                         <h4>Flux RSS</h4>
                         <h4>Contact</h4>
-                        <h4>Qu'est-ce que Cybernetic ?</h4>
+                        <a href="projet"><h4>Qu'est-ce que Cybernetic ?</h4></a>
+                        <h5>Ⓒ CyberNeTic</h5>
                     </div>
 
 
