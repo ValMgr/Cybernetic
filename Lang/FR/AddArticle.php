@@ -4,7 +4,7 @@
 
         <?php
          
-            $query = "SELECT * FROM `Langues`";
+            $query = "SELECT * FROM `langues`";
             $stmt = $dbPdo->query($query);
             $result = $stmt->fetchAll();
 

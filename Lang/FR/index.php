@@ -1,6 +1,6 @@
 <?php
 
-    $getArticles = "SELECT * FROM ARTICLES";
+    $getArticles = "SELECT * FROM `articles`";
     $query = $dbPdo->query($getArticles);
     $Articles = $query->fetchAll();
 
