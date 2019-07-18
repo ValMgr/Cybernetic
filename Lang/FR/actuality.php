@@ -1,6 +1,6 @@
 <?php
 
-    $getArticles = "SELECT * FROM `articles`";
+    $getArticles = "SELECT * FROM `articles` ORDER BY `NumArticle` DESC";
     $query = $dbPdo->query($getArticles);
     $Articles = $query->fetchAll();
 
@@ -12,84 +12,46 @@
 
 <div class="wrapper">
 
-                <?php include 'NAVBAR.php'; ?>
+        <?php include 'NAVBAR.php'; ?>
 
-                <!-- <div id="MailleActus1"></div> -->
-
-                <div id="particles-js" class="SAH" style="top: 10%;"></div>
+        <div id="particles-js" class="SAH" style="top: 10%;"></div>
 
 
-                <div class="HexagonGroupProject1">
-                    <div id="hexagonProject1"></div>
-                    <div id="hexagonProject1-1"></div>
-                    <h2 id="hexagonProject1-title">Actualités</h2>
-                </div>
-
-
-                <div class="ListActus1">
-
-                    <?php 
-
-                    $j = 0;
-                    foreach ($Articles as $key => $rows) {
-                    
-                        $j++;
-
-                        if($j < 4){ ?>
-            
-                
-                    <div id="Actu<?php echo ($j) ?>">
-                        <img src="style/Assets/Actu<?php echo ($j) ?>.jpg" style="width: 100%;">
-                        <h3><?php echo ($rows[2]); ?></h3>
-                        <p><?php echo ($rows[3]); ?></p>
-                        <p class="ActuDate"><i class="far fa-clock"></i> <?php echo ($rows[1]); ?></p>
-                    </div>
-                    <div id="Actu<?php echo ($j); ?>-2"></div>
-
-               <?php } } ?>
-
-                </div>
-
-                <div class="ListActus2">
-
-                    <?php 
-
-                    for ($i=3; $i < 6; $i++) { 
-                                          
-                            if(isset($Articles[$i])){                  
-                                
-                            ?>
-
-                    <div id="Actu<?php echo ($i+1) ?>">
-                        <img src="style/Assets/Actu5.jpg" style="width: 100%;">
-                        <h3><?php echo ($Articles[$i][2]); ?></h3>
-                        <p><?php echo ($Articles[$i][3]); ?></p>
-                        <p class="ActuDate"><i class="far fa-clock"></i> <?php echo ($Articles[$i][1]); ?></p>
-                    </div>
-                    <div id="Actu<?php echo ($i+1) ?>-2"></div>
-
-                    <?php  
-                    
-                            }
-                            else if(!isset($Articles[$i])) {   ?>
-
-                    <div id="Actu<?php echo ($i+1) ?>">
-                        <img src="style/Assets/Actu5.jpg" style="width: 100%;">
-                        <h3> A Venir </h3>
-                        <p>Nos prochaines conférences et actualités sur le domaine du CyberHarcèlement seront bientôt disponibles. Restez à l'écoute. <br><br></p>
-                        <p class="ActuDate"><i class="far fa-clock"></i> Unknow</p>
-                    </div>
-                    <div id="Actu<?php echo ($i+1) ?>-2"></div>
-
-                   <?php } }?>
-
-                </div>
-
-
-                <?php include 'FOOTER.php'; ?>
-
-
-                
-                
-
+        <div class="HexagonGroupProject1">
+            <div id="hexagonProject1"></div>
+            <div id="hexagonProject1-1"></div>
+            <h2 id="hexagonProject1-title">Actualités</h2>
         </div>
+
+
+        <div class="articles">
+            <div class="container">
+                <div class="articles__items">
+
+                    <?php 
+                        $j = 0;
+                        $img = count($Articles);
+                        foreach ($Articles as $key => $rows) {
+                        
+                            $j++;
+
+                            if($j < $Articles){ ?>
+                                <a class="article" href="index.php" style="text-decoration: none; color: #333;">                
+                                    <div>
+                                        <img src="Files/Article/picture/<?php echo($rows['imagename']) ?>" style="width: 100%; border-radius: 5px 5px 0px 0px;">
+                                        <h3><?php echo ($rows[2]); ?></h3>
+                                        <p class="Article__content"><?php echo ($rows[3]); ?></p>
+                                        <p class="ActuDate2"><i class="far fa-clock"></i> <?php echo ($rows[1]); ?></p>
+                                    </div>
+                                </a>
+                    <?php
+                        $img--;
+                     } } ?>
+                </div>
+            </div>
+        </div>
+
+
+        <?php include 'FOOTER.php'; ?>
+
+</div>

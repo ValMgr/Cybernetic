@@ -16,12 +16,10 @@
 
                 <?php include 'NAVBAR.php'; ?>
 
-                <div id="MailleAdmin"></div>
-
                 <div class="HexagonGroupAdmin">
                     <div id="hexagonProject1"></div>
                     <div id="hexagonProject1-1"></div>
-                    <h2 id="hexagonProject1-title">Edition Nouvel Article</h2>
+                    <h2 id="hexagonProject1-title">Edition / Nouvelle Brève</h2>
                 </div>
 
                 <a id="Return" href="Admin.php">Retour</a>
@@ -40,13 +38,11 @@
 
                     </select>
                     <!-- <input type="date" name="date"> -->
-                    <!-- <input type="file" name="image" id="image" /> -->
+                    <input type="file" name="image" id="image" required/>
                     <input type="submit" name="Envoie" value="VALIDER">
                 </form>
 
         </div>
-        <br><br><br>
-
     </body>
 
     <script>

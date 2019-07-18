@@ -8,7 +8,6 @@
                         <a href="projet">PROJET</a>
                         <a href="Temoignage">TEMOIGNAGE</a>
                         <a href="EnImage">EN IMAGE</a>
-                        <a href="Redirection">RESSOURCES</a>
                         <a href="index"><i class="fas fa-home"></i></a>
                         <a href="#"><i class="fas fa-search"></i></a>
 

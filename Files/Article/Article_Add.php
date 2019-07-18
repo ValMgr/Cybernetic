@@ -85,9 +85,11 @@
 
         $NumLang = $_POST['NumLang'];
 
+        $img = $_FILES['image']['name'];
+
         $AddArticle = "INSERT INTO `articles`(`DateArticle`, `TitleArticle`, `ChapoArticle`, `Paragraphe1`,
             `Subtitle1`, `Paragraphe2`, `Subtitle2`, `Paragraphe3`, `Subtitle3`, `Paragraphe4`,
-            `Subtitle4`, `Paragraphe5`, `NumLang`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+            `Subtitle4`, `Paragraphe5`, `NumLang`, `imagename`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
         $query = $dbPdo->prepare($AddArticle);
      
@@ -105,6 +107,9 @@
         $query->bindValue(11, $Sub5, PDO::PARAM_STR);  echo $Sub5 . "<br />";
         $query->bindValue(12, $Para5, PDO::PARAM_STR);  echo $Para5 . "<br />";
         $query->bindValue(13, $NumLang, PDO::PARAM_STR);  echo $NumLang . "<br />";
+        $query->bindValue(14, $img, PDO::PARAM_STR);  echo $img . "<br />";
+
+        move_uploaded_file($_FILES['image']['tmp_name'], "picture/$img");
 
         $query->execute();
 

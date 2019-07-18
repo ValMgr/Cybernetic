@@ -141,30 +141,6 @@
   z-index: 3;
 }
 
-#hexagonHomeDeco2{
-  width: 235px;
-  height: 242.5px;
-  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  background-color: #4B78BF;
-  transform: rotate(96deg) translate(1585px, -7.5vw);
-
-  position: absolute;
-  z-index: 2;
-}
-
-#hexagonHomeDeco3{
-  width: 235px;
-  height: 242.5px;
-  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  background-color: #4B78BF;
-  transform: rotate(107.5deg) translate(1465px, -127.5vw);
-
-  position: absolute;
-  z-index: 2;
-}
-
 
 
 
@@ -214,6 +190,11 @@
   z-index: 3;
   transform: translate(80px, -90px);
 }
+
+#HexagonGroupTemoignage1-title{
+    transform: translate(75px, -85px);
+    z-index: 3;
+  }
 
 
 
@@ -392,8 +373,10 @@
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   background-image: url('Assets/Jerome.png');
+  background-repeat: no-repeat;
+  background-color: white;
   background-position: center;
-  background-size: auto 100%;
+  background-size: 90%;
 
   position: relative;
   float: right;
@@ -499,6 +482,10 @@
   position: absolute;
   z-index: 15;
   transform: translate(8px, -185px);
+}
+
+.hexagonProjectPartenaire2{
+  padding: 40px;
 }
 
 #hexagonProjectDeco1{

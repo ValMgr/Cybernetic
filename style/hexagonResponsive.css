@@ -1,0 +1,345 @@
+@media only screen and (max-width: 600px){
+
+/* HOMEPAGE */
+
+  #hexagonHome0{
+    width: 65px;
+    height: 75px;
+    transform: rotate(90deg) translate(2px, -2px);
+  }
+
+  #hexagonHome0-0{
+    width: 69px;
+    height: 79px;
+  }
+
+  #hexagonHome0-title{
+    transform: translate(45px, -50px);
+  }
+
+
+
+  #hexagonHome1-title{
+    transform: none;
+  }
+
+
+  #hexagonHome5{
+    background-color: #CECECE;
+    transform: translate(1px, 12px);
+  }
+
+  #hexagonHome6{
+    transform: translate(1px, 12px);
+  }
+
+  #hexagonHome7{
+    background-color: #CECECE;
+    transform: translate(1px, 12px);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*  PROJECT PAGE  */
+
+
+  #hexagonProject1{
+    width: 95px;
+    height: 110px;
+    transform: rotate(90deg) translate(2px, -2px);
+  }
+
+  #hexagonProject1-1{
+    width: 99px;
+    height: 114px;
+  }
+
+  #hexagonProject1-title{
+    transform: translate(65px, -85px);
+  }
+
+  #HexagonGroupTemoignage1-title{
+    transform: translate(65px, -55px);
+    z-index: 3;
+  }
+
+  #hexagonProject2{
+    width: 400px;
+    height: 475px;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-color: rgb(3, 175, 168);
+    transform: rotate(90deg);
+
+    position: absolute;
+    opacity: 0.5;
+    z-index: 3;
+  }
+  #hexagonProject2-2{
+    width: 400px;
+    height: 475px;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-color: #EFEFEF;
+    transform: rotate(90deg);
+
+    position: relative;
+    opacity: 1;
+    z-index: 2;
+  }
+
+  #hexagonProject2-1{
+    width: 400px;
+    height: 475px;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-color: rgb(23, 70, 145);
+    transform: rotate(90deg);
+
+    position: absolute;
+    opacity: 1;
+    z-index: 2;
+  }
+
+
+
+
+  #hexagonProject3{
+    width: 25vw;
+    height: 27.5vw;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-color: rgb(3, 175, 168);
+    opacity: 1;
+
+    position: absolute;
+    z-index: 20;
+  }
+
+  #hexagonProject3-1{
+    width: 24vw;
+    height: 26.5vw;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-color: white;
+    opacity: 1;
+
+    position: absolute;
+    z-index: 20;
+    transform: translate(0.5vw, 0.5vw);
+  }
+
+  #hexagonProject3-title{
+    position: absolute;
+    z-index: 20;
+    transform: translate(4.5vw, 8.5vw);
+  }
+
+  #hexagonProject3-parag{
+    position: absolute;
+    z-index: 20;
+    transform: translate(120.5px, 25px);
+  }
+
+  #hexagonProject3-parag2{
+    position: absolute;
+    z-index: 20;
+    margin-left: 30vw;
+    transform: translate(0px, 22.5px);
+  }
+
+  #hexagonProject4{
+    width: 25vw;
+    height: 27.5vw;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-color: rgb(3, 175, 168);
+    opacity: 1;
+
+    position: absolute;
+    margin-left: 60vw;
+    margin-top: 15vw;
+    z-index: 20;
+  }
+
+  #hexagonProject4-1{
+    width: 24vw;
+    height: 26.5vw;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-color: white;
+    opacity: 1;
+
+    position: absolute;
+    z-index: 20;
+    margin-left: 60vw;
+    margin-top: 15vw;
+    transform: translate(0.5vw, 0.5vw);
+  }
+
+  #hexagonProject4-title{
+    position: absolute;
+    z-index: 20;
+    margin-left: 60vw;
+    margin-top: 15vw;
+    transform: translate(4.5vw, 8.5vw);
+  }
+
+  #hexagonProject4-parag{
+    position: absolute;
+    z-index: 20;
+    transform: translate(27.5px, 150px);
+  }
+
+  #hexagonProject4-parag2{
+    position: absolute;
+    z-index: 20;
+    margin-right: 30vw;
+    margin-top: 15vw;
+    transform: translate(0px, 22.5px);
+  }
+
+  #hexagonProject5{
+    width: 25vw;
+    height: 27.5vw;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-color: rgb(3, 175, 168);
+    opacity: 1;
+
+    position: absolute;
+    z-index: 20;
+  }
+
+  #hexagonProject5-1{
+    width: 24vw;
+    height: 26.5vw;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-color: white;
+    opacity: 1;
+
+    position: absolute;
+    z-index: 20;
+    transform: translate(0.5vw, 0.5vw);
+  }
+
+  #hexagonProject5-title{
+    position: absolute;
+    z-index: 20;
+    transform: translate(4.5vw, 8.5vw);
+  }
+
+  #hexagonProject5-parag{
+    position: absolute;
+    z-index: 20;
+    transform: translate(120.5px, 25px);
+  }
+
+  #hexagonProject5-parag2{
+    position: absolute;
+    z-index: 20;
+    margin-left: 30vw;
+    transform: translate(0px, 22.5px);
+  }
+
+
+
+
+  #hexagonProject6{
+    width: 25vw;
+    height: 27.5vw;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-image: url('Assets/Marlene.jpg');
+    background-size: auto 100%;
+
+    position: absolute;
+    z-index: 5;
+  }
+
+  #hexagonProject7{
+    width: 25vw;
+    height: 27.5vw;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-image: url('Assets/Jerome.png');
+    background-position: center;
+    background-size: auto 100%;
+
+    position: relative;
+    float: right;
+    z-index: 5;
+  }
+
+  #hexagonProject8{
+    width: 25vw;
+    height: 27.5vw;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-image: url('Assets/JeanChristophe.jpg');
+    background-size: auto 100%;
+
+    position: absolute;
+    z-index: 5;
+  }
+
+
+
+  #hexagonProject9{
+    width: 126px;
+    height: 146px;
+  }
+
+  #hexagonProject9-1{
+    width: 130px;
+    height: 150px;
+  }
+
+  #hexagonProject10{
+    width: 126px;
+    height: 146px;
+  }
+
+  #hexagonProject10-1{
+    width: 130px;
+    height: 150px;
+  }
+
+  #hexagonProject11{
+    width: 126px;
+    height: 146px;
+  }
+
+  #hexagonProject11-1{
+    width: 130px;
+    height: 150px;
+  }
+
+  .hexagonProjectPartenaire{
+    width: 146px;
+    height: 125px;
+    padding: 5px 15px;
+    transform: translate(2px, -90px);
+  }
+
+  .hexagonProjectPartenaire2{
+    padding: 22.5px 30px;
+  }
+
+
+}

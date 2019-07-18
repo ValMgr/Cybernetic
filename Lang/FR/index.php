@@ -1,6 +1,6 @@
-²<?php
+<?php
 
-    $getArticles = "SELECT * FROM `articles`";
+    $getArticles = "SELECT * FROM `articles` ORDER BY `NumArticle` DESC";
     $query = $dbPdo->query($getArticles);
     $Articles = $query->fetchAll();
 
@@ -80,26 +80,31 @@
                     <div class="Actuality"> <h2><i class="far fa-newspaper"></i> ACTUALITES</h2> </div>
 
 
-                    <?php
 
-                    $i = 0;
-                    foreach ($Articles as $key => $rows) {
-                        $i++;
+                    <div class="articlesIndex">
+                        <div class="container">
+                            <div class="articles__items">
 
-                        if($i < 4){   ?>
+                                <?php 
+                                    $j = 0;
+                                    $img = count($Articles);
+                                    foreach ($Articles as $key => $rows) {
+                                    
+                                        $j++;
 
-                    <div class="LastActu">
-                        <div id="LastActu<?php echo ($i) ?>">
-                            <img style="width:100%; border-radius: 5px 5px 0px 0px;" src="style/Assets/Actu<?php echo ($i) ?>.jpg" style="width: 100%;"> <!-- Img en dur -->
-                            <h3><?php echo ($rows[2]); ?></h3>
-                            <p><?php echo ($rows[3]); ?></p>
-                            <p class="ActuDate"><i class="far fa-clock"></i> <?php echo ($rows[1]); ?></p>
+                                        if($j < 4){ ?>                
+                                            <div class="article">
+                                                <img src="Files/Article/picture/<?php echo($rows['imagename']) ?>" style="width: 100%; border-radius: 5px 5px 0px 0px;">
+                                                <h3><?php echo ($rows[2]); ?></h3>
+                                                <p class="Article__content"><?php echo ($rows[3]); ?></p>
+                                                <p class="ActuDate2"><i class="far fa-clock"></i> <?php echo ($rows[1]); ?></p>
+                                            </div>
+                                <?php
+                                    $img--;
+                                 } } ?>
+                            </div>
                         </div>
-                        <div id="LastActu<?php echo ($i) ?>-<?php echo ($i); ?>"></div>
-
                     </div>
-
-                    <?php } } ?>
 
                         
                     
@@ -109,28 +114,18 @@
 
                     <div id="hexagonHomeDeco2"></div>
 
-
-                    <div id="Partners">
-                            <span><i class="far fa-handshake"></i> PARTENAIRES</span>
-                    </div>
-
-                    <div class="HexagonGroupHome2">
-                        <img class="hexagonHome3" src="style/Assets/Logo-NTech.png" style="padding: 25px 12.5px;">
-                        <div class="hexagonHome4"></div>
-                        <div id="hexagonHome5"></div>
-                    </div>
-
-                    <div class="HexagonGroupHome3">
-                        <img class="hexagonHome3" src="style/Assets/Logo_Orange.jpg" style="padding: 50px 35px;">
-                        <div class="hexagonHome4"></div>
-                        <div id="hexagonHome6"></div>
-                    </div>
-
-                    <div class="HexagonGroupHome4">
-                        <img class="hexagonHome3" src="style/Assets/Logo-UB.jpg" style="padding: 15px 0px;">
-                        <div class="hexagonHome4"></div>
-                        <div id="hexagonHome7"></div>
-                    </div>
+                        <div class="partenaires">
+                            <div class="container">
+                                <h2 class="partenaires__title"><i class="far fa-handshake"></i> Partenaires</h2>
+                                <div class="partenaires__items">
+                                    <div class="partenaire1"></div>
+                                    <div class="partenaire2"></div>
+                                    <div class="partenaire3"></div>
+                                    <div class="partenaire4"></div>
+                                    <div class="partenaire5"></div>
+                                </div>
+                            </div>
+                        </div>
 
 
                     <div id="hexagonHomeDeco3"></div>

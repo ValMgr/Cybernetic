@@ -24,17 +24,11 @@
                     </p>
                     <h3>OBJECTIFS DU PROJET</h3>
                     <p>
-<!--                         <ul>
-                            <li> -->
-                                <b>Développer une dynamique de recherche émergente</b> qui s’appuie sur une collecte de données qualitative inédite en France jamais encore exploitées dans le cadre de travaux scientifiques en sciences humaines et sociales. <br>
-<!--                             </li>
-                            <li> -->
-                                <b>Mener une recherche-action</b> avec un impact social fort qui vise à améliorer les pratiques professionnelles des enquêteurs de la gendarmerie par une approche compréhensive des cyberviolences chez les jeunes (10-25 ans) et à renforcer leurs moyens d’intervention sur le terrain, notamment en milieu éducatif, dans la lutte contre le cyberharcèlement par la création d’une application mobile. <br>
-<!--                             </li>
-                            <li> -->
-                                <b>Ouvrir et consolider un dialogue scientifique</b> entre l’université Bordeaux Montaigne et l’institution de la Gendarmerie Nationale afin de développer une dynamique scientifique renouvelée en Sciences de l’information et de la communication qui s’inscrive dans la lignée des recherches contiguës menées par le laboratoire du MICA. <br>
-<!--                             </li>
-                        </ul> -->
+                        <b>Développer une dynamique de recherche émergente</b> qui s’appuie sur une collecte de données qualitative inédite en France jamais encore exploitées dans le cadre de travaux scientifiques en sciences humaines et sociales. <br>
+
+                        <b>Mener une recherche-action</b> avec un impact social fort qui vise à améliorer les pratiques professionnelles des enquêteurs de la gendarmerie par une approche compréhensive des cyberviolences chez les jeunes (10-25 ans) et à renforcer leurs moyens d’intervention sur le terrain, notamment en milieu éducatif, dans la lutte contre le cyberharcèlement par la création d’une application mobile. <br>
+
+                        <b>Ouvrir et consolider un dialogue scientifique</b> entre l’université Bordeaux Montaigne et l’institution de la Gendarmerie Nationale afin de développer une dynamique scientifique renouvelée en Sciences de l’information et de la communication qui s’inscrive dans la lignée des recherches contiguës menées par le laboratoire du MICA. <br>
                     </p>
                 </div>
 
@@ -59,6 +53,7 @@
                     <div id="hexagonProject3-1"></div>
                     <h4 id="hexagonProject3-title">44%</h4>
                     <p id="hexagonProject3-parag">des enfants de 6 à 8 ans<br>surfent sur internet<br>(soit 1 enfant sur 2)</p>
+                    <p id="hexagonProject3-parag2">des enfants de 6 à 8 ans surfent sur internet (soit 1 enfant sur 2)</p>
                 </div>
 
                 <div class="HexagonGroupProject4">
@@ -66,6 +61,7 @@
                     <div id="hexagonProject4-1"></div>
                     <h4 id="hexagonProject4-title">85%</h4>
                     <p id="hexagonProject4-parag">des cas de<br>cyberharcèlement ont lieu<br>dans le cadre d'un groupe</p>
+                    <p id="hexagonProject4-parag2">des cas de cyberharcèlement ont lieu dans le cadre d'un groupe</p>
                 </div>
 
                 <div class="HexagonGroupProject5">
@@ -73,9 +69,8 @@
                     <div id="hexagonProject5-1"></div>
                     <h4 id="hexagonProject5-title">40%</h4>
                     <p id="hexagonProject5-parag">des enfants déclarent<br>avoir subi une agression<br>sur internet</p>
+                    <p id="hexagonProject5-parag2">des enfants déclarent avoir subi une agression sur internet</p>
                 </div>
-
-                <!-- <div id="ActuMore" class="KeyNbMore"><a href="Actualites.php" class="More ActuMore">EN VOIR PLUS</a></div> -->
 
 
 
@@ -92,7 +87,7 @@
 
                 <div id="Marlene">
                     <h3>DULAURANS Marlène</h3>
-                    <h4>Réserviste citoyenne de la gendarmerie nationale & Maître de conférences en Sciences de l’Information et de la Communication <br><br></h4>
+                    <h4>Réserviste citoyenne de la GN & Maître de conférences en Sciences de l’Information et de la Communication <br><br></h4>
                     <p>
                         Elle est membre d’un groupe de recherche sur les « incivilités numériques » dans l’axe COS du laboratoire MICA.
                         Ses travaux s’appuient principalement sur des méthodologies d’analyse statistique textuelle dans le cadre de recherches-actions institutionnelles.
@@ -135,29 +130,21 @@
                 <div id="hexagonProjectDeco1"></div>
                 
 
-                <div id="partenaires">
-                    <span><i class="far fa-handshake"></i> PARTENAIRES</span>
+                <div class="partenairesProjet">
+                    <div class="container">
+                        <h2 class="partenaires__title"><i class="far fa-handshake"></i> Partenaires</h2>
+                        <div class="partenaires__items">
+                            <div class="partenaire1"></div>
+                            <div class="partenaire2"></div>
+                            <div class="partenaire3"></div>
+                            <div class="partenaire4"></div>
+                           <div class="partenaire5"></div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="HexagonGroupProject9">
-                    <div id="hexagonProject9"></div>
-                    <div id="hexagonProject9-1"></div>
-                    <img class="hexagonProjectPartenaire" src="style/Assets/Logo-NTech.png">
-                </div>
 
-                <div class="HexagonGroupProject10">
-                    <div id="hexagonProject10"></div>
-                    <div id="hexagonProject10-1"></div>
-                    <img class="hexagonProjectPartenaire" src="style/Assets/Logo_Orange.jpg" style="padding: 40px;">
-                </div>
-
-                <div class="HexagonGroupProject11">
-                    <div id="hexagonProject11"></div>
-                    <div id="hexagonProject11-1"></div>
-                    <img class="hexagonProjectPartenaire" src="style/Assets/Logo-UB.jpg" style="padding: 0px;">
-                </div>
-
-                <div id="hexagonProjectDeco2"></div>
+                <!-- <div id="hexagonProjectDeco2"></div> -->
 
                 <?php include 'FOOTER.php'; ?>
 
